@@ -1,0 +1,51 @@
+<!-- @dsCard group="Components" viewport="700x400" name="Buttons" subtitle="Solid, Primary, Amber variants + sizes" -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+<script src="../_ds_bundle.js"></script>
+<style>
+  body { margin: 0; padding: 32px; background: #1E1E1E; }
+  .section { margin-bottom: 32px; }
+  .section-title { font-family: var(--font-display); font-size: 16px; color: #F5C842; text-shadow: var(--glow-sm); margin-bottom: 14px; }
+  .button-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+  button { font-family: var(--font-body); font-size: var(--fs-small); font-weight: 700; padding: 14px 30px; cursor: pointer; transition: all var(--dur-base) var(--ease-out); letter-spacing: var(--tracking-wide); border-radius: var(--radius-pill); border: none; display: inline-flex; align-items: center; justify-content: center; }
+  .btn-solid { background: var(--celestial-yellow); color: #1E1E1E; box-shadow: 0 0 18px rgba(245,200,66,0.45); }
+  .btn-solid:hover { background: #ffe07a; box-shadow: 0 0 28px rgba(245,200,66,0.75); transform: translateY(-2px); }
+  .btn-primary { background: transparent; color: var(--celestial-yellow); border: 2px solid var(--celestial-yellow); }
+  .btn-primary:hover { background: rgba(245,200,66,0.1); box-shadow: 0 0 16px rgba(245,200,66,0.5); }
+  .btn-amber { background: transparent; color: var(--amber-orange); border: 2px solid var(--amber-orange); }
+  .btn-amber:hover { background: rgba(212,130,42,0.12); box-shadow: 0 0 12px rgba(212,130,42,0.55); }
+  .btn-sm { padding: 10px 20px; font-size: 12px; }
+  .btn-lg { padding: 18px 40px; font-size: 16px; }
+</style>
+</head>
+<body>
+  <div class="section">
+    <div class="section-title">Solid (Primary Action)</div>
+    <div class="button-grid">
+      <button class="btn-solid btn-sm">[ Small ]</button>
+      <button class="btn-solid">[ Medium ]</button>
+      <button class="btn-solid btn-lg">[ Large ]</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">Primary Outline</div>
+    <div class="button-grid">
+      <button class="btn-primary btn-sm">[ Small ]</button>
+      <button class="btn-primary">[ Medium ]</button>
+      <button class="btn-primary btn-lg">[ Large ]</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">Amber (Secondary)</div>
+    <div class="button-grid">
+      <button class="btn-amber btn-sm">[ Small ]</button>
+      <button class="btn-amber">[ Medium ]</button>
+      <button class="btn-amber btn-lg">[ Large ]</button>
+    </div>
+  </div>
+</body>
+</html>

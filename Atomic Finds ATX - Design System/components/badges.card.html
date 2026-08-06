@@ -1,0 +1,38 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Badges" subtitle="In Stock, Featured, Out, Eco variants" -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 32px; background: #1E1E1E; }
+  .section { margin-bottom: 32px; }
+  .section-title { font-family: var(--font-display); font-size: 16px; color: #F5C842; text-shadow: var(--glow-sm); margin-bottom: 14px; }
+  .badge { display: inline-block; padding: 6px 14px; font-family: var(--font-body); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: var(--tracking-wide); border-radius: var(--radius-pill); white-space: nowrap; margin-right: 8px; margin-bottom: 8px; }
+  .badge-instock { background: var(--celestial-yellow); color: #1E1E1E; box-shadow: var(--glow-sm); }
+  .badge-featured { background: var(--amber-orange); color: #1E1E1E; box-shadow: var(--glow-amber); }
+  .badge-out { background: transparent; color: var(--woven-moss); border: 1px solid var(--woven-moss); }
+  .badge-eco { background: var(--woven-moss); color: var(--bone-white); }
+  .badge-group { margin-bottom: 16px; }
+</style>
+</head>
+<body>
+  <div class="badge-group">
+    <span class="badge badge-instock">In Stock</span>
+    <span class="badge badge-instock">Available</span>
+  </div>
+  <div class="badge-group">
+    <span class="badge badge-featured">Featured</span>
+    <span class="badge badge-featured">New Arrival</span>
+  </div>
+  <div class="badge-group">
+    <span class="badge badge-out">Out of Stock</span>
+    <span class="badge badge-out">Sold Out</span>
+  </div>
+  <div class="badge-group">
+    <span class="badge badge-eco">Eco / Restored</span>
+    <span class="badge badge-eco">Vintage</span>
+  </div>
+</body>
+</html>

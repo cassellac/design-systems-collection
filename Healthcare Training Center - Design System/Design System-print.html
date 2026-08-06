@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="omelette-print-source" content="v1782036353504904 Design System.html">
+<title>Caladrius — Design System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>doc-page:not(:defined){visibility:hidden}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+:root{--navy:#1E3A6E;--teal:#2B8FA9;--amber:#C9973A;--surface:#F4F6F9;--border:#D0D8E8;--fg1:#16243D;--fg2:#44587A;--fg3:#7A89A3;--hf:'Montserrat',system-ui,sans-serif;--bf:'Inter',system-ui,sans-serif}
+body{font-family:var(--bf);color:var(--fg1)}
+.cover{display:flex;align-items:center;gap:14px;padding-bottom:18px;border-bottom:2px solid var(--navy);margin-bottom:24px}
+.cover img{width:48px;height:48px;border-radius:50%}
+.cover h1{font-family:var(--hf);font-weight:800;font-size:26px;color:var(--navy);margin:0}
+.cover p{font-family:var(--bf);font-size:12px;color:var(--fg3);margin:2px 0 0}
+h2{font-family:var(--hf);font-weight:700;font-size:16px;color:var(--navy);margin:26px 0 10px;break-after:avoid}
+table{width:100%;border-collapse:collapse;margin-bottom:6px;break-inside:avoid}
+thead{display:table-header-group}
+th{font-family:var(--bf);font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--fg3);text-align:left;padding:6px 8px;border-bottom:1px solid var(--border)}
+td{font-family:var(--bf);font-size:12px;padding:7px 8px;border-bottom:1px solid var(--border);color:var(--fg2)}
+td.name{color:var(--fg1);font-weight:600}
+tr{break-inside:avoid}
+.pill{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:20px;color:var(--navy);background:#EEF2FB}
+</style>
+</head>
+<body>
+<doc-page margin="0.75in">
+<div class="cover">
+<img src="assets/brand/logos/logo-icon-compound.png" alt="Caladrius">
+<div><h1>Caladrius</h1><p>Healthcare Training · Design System Index</p></div>
+</div>
+<p style="font-size:12px;color:var(--fg2);line-height:1.6;margin-bottom:8px">A printable index of every asset in the design system — organized by group. Open the live system for interactive previews, click-through UI kits, and downloadable templates.</p>
+<script>
+const GROUP_LABEL={'Logo':'Logo','Brand':'Brand','Motifs':'Motifs','Instructor Characters':'Instructor Characters','Colors':'Colors','Spacing':'Spacing','Type':'Type','Components':'Components','UI Kit — Learner App':'UI Kit — Learner App','UI Kit — Marketing':'UI Kit — Marketing','Templates':'Templates'};
+const CARDS=[
+{group:'Logo',name:'The Caladrius Mark',subtitle:'8 official logo variations + usage',path:'preview/logo.html'},
+{group:'Brand',name:'Lockup Reversal',subtitle:'On cream + on navy',path:'preview/wordmark.html'},
+{group:'Brand',name:'Certificate Specimen',subtitle:'Playfair display name on completion',path:'preview/certificate.html'},
+{group:'Brand',name:'Room Icon Set (Phosphor)',subtitle:'Room + general UI glyphs',path:'preview/room-icons.html'},
+{group:'Motifs',name:'Illustrated Iconography',subtitle:'Hand-drawn editorial symbols',path:'preview/motifs.html'},
+{group:'Instructor Characters',name:'Illustration Cast',subtitle:'Flat editorial people for courses & email',path:'preview/characters.html'},
+{group:'Colors',name:'Brand & Neutrals',subtitle:'Navy, teal, surfaces, border',path:'preview/colors-brand.html'},
+{group:'Colors',name:'Training Room Accents',subtitle:'The 5 room identity colors',path:'preview/colors-rooms.html'},
+{group:'Colors',name:'Semantic States',subtitle:'Success / warning / error / info',path:'preview/colors-semantic.html'},
+{group:'Components',name:'Badges & Pills',subtitle:'Status pills, room numbers, tags',path:'preview/badges.html'},
+{group:'Components',name:'Room-Accent Buttons',subtitle:'Dynamic in-room CTA color',path:'preview/buttons-room.html'},
+{group:'Components',name:'Buttons',subtitle:'Variants + sizes',path:'preview/buttons.html'},
+{group:'Components',name:'Course Card',subtitle:'In-room course tiles',path:'preview/course-card.html'},
+{group:'Components',name:'Form Input',subtitle:'Default / focus / error states',path:'preview/form-input.html'},
+{group:'Components',name:'Help Desk & Announcement',subtitle:'Banner + floating help widget',path:'preview/helpdesk.html'},
+{group:'Components',name:'Primary Navigation',subtitle:'Authenticated navy nav bar',path:'preview/nav.html'},
+{group:'Components',name:'Progress Indicators',subtitle:'Linear bars + circular ring',path:'preview/progress.html'},
+{group:'Components',name:'Room Entry Card',subtitle:"The signature 'door' card",path:'preview/room-card.html'},
+{group:'Spacing',name:'Motion Tokens',subtitle:'fast / base / slow / spring',path:'preview/motion.html'},
+{group:'Spacing',name:'Corner Radius',subtitle:'sm / md / lg / xl / full',path:'preview/radius.html'},
+{group:'Spacing',name:'Elevation & Shadows',subtitle:'sm / md / lg + focus ring',path:'preview/shadows.html'},
+{group:'Spacing',name:'8px Scale',subtitle:'space-1 through space-9',path:'preview/spacing-scale.html'},
+{group:'Type',name:'Body, UI & Accent',subtitle:'Inter body/UI scale + Playfair accent',path:'preview/type-body.html'},
+{group:'Type',name:'Font Families',subtitle:'Montserrat · Inter · Playfair Display',path:'preview/type-families.html'},
+{group:'Type',name:'Headings (Montserrat)',subtitle:'Display through H4, Montserrat',path:'preview/type-headings.html'},
+{group:'UI Kit — Learner App',name:'Learner App — UI Kit',subtitle:'Lobby → Room → Course, click-through',path:'ui_kits/learner-app/index.html'},
+{group:'UI Kit — Marketing',name:'Marketing Site — UI Kit',subtitle:'Public landing page recreation',path:'ui_kits/marketing/index.html'},
+{group:'Templates',name:'Course Announcement Emails',subtitle:'New course, deadline, certificate & live class templates',path:'preview/email-templates.html'},
+];
+const grouped={};
+CARDS.forEach(c=>{(grouped[c.group]=grouped[c.group]||[]).push(c)});
+const order=['Logo','Brand','Motifs','Instructor Characters','Colors','Spacing','Type','Components','UI Kit — Learner App','UI Kit — Marketing','Templates'];
+let html='';
+order.forEach(g=>{
+  const cards=grouped[g]||[];
+  html+=`<h2>${g} <span class="pill">${cards.length} ${cards.length===1?'item':'items'}</span></h2><table><thead><tr><th style="width:32%">Name</th><th style="width:38%">Description</th><th>File</th></tr></thead><tbody>`;
+  cards.forEach(c=>{html+=`<tr><td class="name">${c.name}</td><td>${c.subtitle}</td><td>${c.path}</td></tr>`});
+  html+='</tbody></table>';
+});
+document.currentScript.insertAdjacentHTML('afterend', html);
+</script>
+</doc-page>
+<script src="./doc-page.js"></script>
+</body>
+</html>
