@@ -94,9 +94,6 @@ Object.assign(__ds_scope, { StatusBadge });
 
 // components/content/ProductCard.jsx
 try { (() => {
-const {
-  useState
-} = React;
 function ProductCard({
   image,
   name,
@@ -104,20 +101,8 @@ function ProductCard({
   price,
   status
 }) {
-  const [hover, setHover] = useState(false);
   return /*#__PURE__*/React.createElement("div", {
-    onMouseEnter: () => setHover(true),
-    onMouseLeave: () => setHover(false),
-    style: {
-      background: 'var(--bg-card)',
-      borderRadius: 'var(--radius-lg)',
-      boxShadow: hover ? 'var(--shadow-card-hover)' : 'var(--shadow-card)',
-      transform: hover ? 'translateY(-2px)' : 'translateY(0)',
-      transition: 'all var(--dur-normal) var(--ease-out)',
-      overflow: 'hidden',
-      width: 260,
-      fontFamily: 'var(--font-body)'
-    }
+    className: "product-card"
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       position: 'relative',
@@ -142,30 +127,13 @@ function ProductCard({
     status: status,
     size: "sm"
   }))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: '14px 16px'
-    }
+    className: "product-card-footer"
   }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontFamily: 'var(--font-heading)',
-      fontWeight: 600,
-      fontSize: 19,
-      color: 'var(--ink)'
-    }
+    className: "product-card-title"
   }, name), era && /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontSize: 13,
-      color: 'var(--text-secondary)',
-      marginTop: 2
-    }
+    className: "product-card-era"
   }, era), /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontFamily: 'var(--font-heading)',
-      fontWeight: 600,
-      fontSize: 16,
-      color: 'var(--brand-primary)',
-      marginTop: 8
-    }
+    className: "product-card-price"
   }, price)));
 }
 Object.assign(__ds_scope, { ProductCard });
