@@ -1,0 +1,70 @@
+<!-- @dsCard group="App" viewport="430x900" name="Mobile app — feed, product, haul, tabs" subtitle="Interactive Atomic Finds mobile shop" -->
+<!-- @startingPoint section="App" subtitle="Atomic Finds mobile app home" viewport="430x900" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atomic Finds — Mobile App</title>
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#E9DEB8;font-family:var(--font-body);color:var(--text-body);display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+a{color:var(--link)}a:hover{color:var(--link-hover)}
+.phone{position:relative;width:390px;height:844px;background:var(--bg-page);border-radius:44px;border:10px solid var(--ink-900);box-shadow:var(--shadow-hard-lg);overflow:hidden;display:flex;flex-direction:column}
+.notch{position:absolute;top:0;left:50%;transform:translateX(-50%);width:120px;height:26px;background:var(--ink-900);border-radius:0 0 16px 16px;z-index:40}
+.screen{flex:1;overflow-y:auto;position:relative}
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="notch"></div>
+  <div id="root" class="screen"></div>
+</div>
+<script src="../store/data.js"></script>
+<script type="text/babel" src="../store/HomeScreen.jsx"></script>
+<script type="text/babel" src="./TabBar.jsx"></script>
+<script type="text/babel" src="./HomeFeed.jsx"></script>
+<script type="text/babel" src="./ProductDetail.jsx"></script>
+<script type="text/babel" src="./HaulScreen.jsx"></script>
+<script type="text/babel">
+function App(){
+  const data = window.STORE_DATA;
+  const [tab, setTab] = React.useState('shop');
+  const [product, setProduct] = React.useState(null);
+  const [haul, setHaul] = React.useState([]);
+
+  const add = (item)=> setHaul(c=>{
+    const found = c.find(i=>i.id===item.id);
+    if(found) return c.map(i=>i.id===item.id?{...i,qty:i.qty+1}:i);
+    return [...c,{...item,qty:1}];
+  });
+  const remove = (id)=> setHaul(c=>c.filter(i=>i.id!==id));
+  const count = haul.reduce((s,i)=>s+i.qty,0);
+
+  let body;
+  if (product) {
+    body = <ProductDetail item={product} onBack={()=>setProduct(null)} onAdd={(i)=>{add(i); setProduct(null); setTab('haul');}} />;
+  } else if (tab==='shop') {
+    body = <HomeFeed data={data} onOpen={setProduct} onAdd={add} />;
+  } else if (tab==='haul') {
+    body = <HaulScreen items={haul} onRemove={remove} onCheckout={()=>{}} />;
+  } else {
+    body = <div style={{padding:'80px 24px', textAlign:'center', fontFamily:'var(--font-body)', color:'var(--text-muted)'}}>Coming soon.</div>;
+  }
+
+  return (
+    <div style={{display:'flex', flexDirection:'column', minHeight:'100%'}}>
+      <div style={{flex:1}}>{body}</div>
+      {!product && <TabBar active={tab} onChange={setTab} haulCount={count} />}
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

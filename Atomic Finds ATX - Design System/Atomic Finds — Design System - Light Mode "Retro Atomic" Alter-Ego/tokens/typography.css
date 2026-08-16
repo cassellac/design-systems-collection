@@ -1,0 +1,39 @@
+/* Atomic Finds — Typography tokens */
+:root {
+  /* Families. 'Mamba' listed first so real files take over once installed;
+     'Alfa Slab One' is the live substitute; Cooper Black for local fallback. */
+  --font-display: 'Mamba', 'Alfa Slab One', 'Cooper Black', Georgia, serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Type scale (1.25 major-third-ish, display-friendly) */
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-md:   18px;
+  --text-lg:   22px;
+  --text-xl:   28px;
+  --text-2xl:  36px;
+  --text-3xl:  48px;
+  --text-4xl:  64px;
+  --text-5xl:  88px;
+  --text-6xl:  120px;
+
+  /* Weights (body sans) */
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-bold:    700;
+
+  /* Line heights */
+  --leading-tight:   1.02;  /* stacked display headlines */
+  --leading-snug:    1.15;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.65;
+
+  /* Letter spacing — tight display tracking mimics vintage screen prints */
+  --tracking-display: -0.03em;
+  --tracking-tight:   -0.01em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.02em;
+  --tracking-eyebrow: 0.14em;  /* uppercase sans eyebrows/labels */
+}

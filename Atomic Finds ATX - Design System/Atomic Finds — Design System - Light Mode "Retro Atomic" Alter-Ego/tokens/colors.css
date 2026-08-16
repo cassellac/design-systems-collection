@@ -1,0 +1,69 @@
+/* Atomic Finds — Color tokens
+   Base palette + semantic aliases. Warm cream ground, athletic yellow,
+   warm charcoal ink. Screen-print / mid-century editorial energy. */
+:root {
+  /* ---- Base ramp: warm neutrals (cream -> charcoal) ---- */
+  --cream-50:  #FFFDF0;  /* page ground, from the font sheets */
+  --cream-100: #FBF7E4;
+  --cream-200: #F4EDD2;
+  --cream-300: #E9DEB8;
+  --sand-400:  #D8C89A;
+  --taupe-500: #9C8C6E;
+  --umber-600: #6B5D46;
+  --ink-700:   #3A3128;
+  --ink-800:   #262019;
+  --ink-900:   #171412;  /* warm charcoal black, heavy letterforms */
+
+  /* ---- Brand yellow ---- */
+  --yellow-300: #FDE68A;
+  --yellow-400: #FACC15;  /* athletic yellow surface */
+  --yellow-500: #EAB308;  /* drop-shadow / darker yellow */
+  --yellow-600: #CA9A04;
+
+  /* ---- Supporting accents (mid-century record-sleeve palette) ---- */
+  --rust-500:   #D1490B;  /* burnt orange */
+  --rust-600:   #A8380A;
+  --teal-500:   #0E7C6B;  /* muted retro teal */
+  --teal-600:   #0A5D50;
+  --cherry-500: #C42B2B;  /* screen-print red */
+
+  /* ---- Functional pure ---- */
+  --white: #FFFFFF;
+  --black: #000000;
+
+  /* ================= Semantic aliases ================= */
+  /* Backgrounds */
+  --bg-page:        var(--cream-50);
+  --bg-subtle:      var(--cream-100);
+  --bg-sunken:      var(--cream-200);
+  --surface-card:   var(--white);
+  --surface-accent: var(--yellow-400);
+  --surface-invert: var(--ink-900);
+
+  /* Text */
+  --text-strong:  var(--ink-900);
+  --text-body:    var(--ink-800);
+  --text-muted:   var(--umber-600);
+  --text-faint:   var(--taupe-500);
+  --text-invert:  var(--cream-50);
+  --text-on-accent: var(--ink-900);
+
+  /* Brand */
+  --brand-primary: var(--ink-900);
+  --brand-accent:  var(--yellow-400);
+  --brand-shadow:  var(--yellow-500);
+
+  /* Borders */
+  --border-strong: var(--ink-900);
+  --border-default: var(--ink-800);
+  --border-subtle: var(--sand-400);
+
+  /* Links */
+  --link:       var(--rust-500);
+  --link-hover: var(--rust-600);
+
+  /* Semantic states */
+  --success: var(--teal-500);
+  --danger:  var(--cherry-500);
+  --warning: var(--yellow-500);
+}

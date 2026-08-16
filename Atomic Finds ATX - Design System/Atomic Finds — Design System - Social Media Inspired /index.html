@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Atomic Finds ATX — Design System</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body{margin:0;background:var(--bg-page);font-family:var(--font-body);color:var(--ink)}
+a{color:var(--brand-primary)}a:hover{color:var(--brand-primary-hover)}
+.hero{padding:64px 48px 40px;text-align:center;background:var(--sun-orange);color:var(--text-inverse)}
+.hero img{width:100px;height:100px;border-radius:50%;box-shadow:var(--shadow-card-hover);margin-bottom:16px}
+.hero h1{font-family:var(--font-display);font-weight:400;font-size:44px;margin:0}
+.hero p{font-family:var(--font-script);font-size:22px;margin:8px 0 0}
+.wrap{max-width:1080px;margin:0 auto;padding:48px 32px 80px}
+.section{margin-bottom:52px}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px;border-bottom:3px solid var(--border-soft);padding-bottom:10px}
+.section-head h2{font-family:var(--font-heading);font-weight:600;font-size:24px;margin:0;color:var(--ink)}
+.section-head span{font-family:var(--font-body);font-size:13px;color:var(--text-secondary)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.card{display:block;background:var(--bg-card);border-radius:var(--radius-lg);box-shadow:var(--shadow-card);padding:18px 20px;text-decoration:none;color:var(--ink);transition:all var(--dur-normal) var(--ease-out)}
+.card:hover{box-shadow:var(--shadow-card-hover);transform:translateY(-2px)}
+.card .t{font-family:var(--font-heading);font-weight:600;font-size:16px;color:var(--ink)}
+.card .s{font-family:var(--font-body);font-size:12px;color:var(--text-secondary);margin-top:4px;line-height:1.4}
+.card .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:8px}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<img src="assets/logo-badge.jpg" alt="Atomic Finds ATX logo">
+<h1>ATOMIC FINDS ATX</h1>
+<p>Tiny Time Machines for Your Home</p>
+</div>
+
+<div class="wrap">
+
+<div class="section">
+<div class="section-head"><h2>Foundations</h2><span>Colors, type, spacing</span></div>
+<div class="grid">
+<a class="card" href="guidelines/colors-primary.html"><div class="t"><span class="dot" style="background:var(--sun-orange)"></span>Primary Colors</div><div class="s">Sun orange, poppy red, avocado green</div></a>
+<a class="card" href="guidelines/colors-accent.html"><div class="t"><span class="dot" style="background:var(--hot-pink)"></span>Accent Colors</div><div class="s">Pink, marigold, chartreuse, turquoise</div></a>
+<a class="card" href="guidelines/colors-neutral.html"><div class="t"><span class="dot" style="background:var(--rattan-honey)"></span>Neutrals &amp; Wood</div><div class="s">Cream, sand, rattan tones, ink</div></a>
+<a class="card" href="guidelines/colors-status.html"><div class="t"><span class="dot" style="background:var(--status-sold-bg)"></span>Status Semantics</div><div class="s">Available / Sold / New Drop pills</div></a>
+<a class="card" href="guidelines/type-display.html"><div class="t">Display — Bungee</div><div class="s">Poster headline face</div></a>
+<a class="card" href="guidelines/type-script.html"><div class="t">Script — Pacifico</div><div class="s">Logo wordmark</div></a>
+<a class="card" href="guidelines/type-heading.html"><div class="t">Heading — Fredoka</div><div class="s">Badges, subheads, UI labels</div></a>
+<a class="card" href="guidelines/type-hand.html"><div class="t">Handwriting — Caveat</div><div class="s">Story captions, personal notes</div></a>
+<a class="card" href="guidelines/type-body.html"><div class="t">Body — Nunito</div><div class="s">Reading text, UI copy</div></a>
+<a class="card" href="guidelines/type-scale.html"><div class="t">Type Scale</div><div class="s">All sizes side by side</div></a>
+<a class="card" href="guidelines/spacing-scale.html"><div class="t">Spacing Scale</div><div class="s">4 / 8 / 12 / 16 / 24 / 32 / 48 / 64px</div></a>
+<a class="card" href="guidelines/radius-shadow.html"><div class="t">Radius &amp; Shadow</div><div class="s">Soft rounded, sticker vs card shadow</div></a>
+</div>
+</div>
+
+<div class="section">
+<div class="section-head"><h2>Brand</h2><span>Logos, photography, cultural story</span></div>
+<div class="grid">
+<a class="card" href="guidelines/brand-logo.html"><div class="t">Logo Mark</div><div class="s">Circular badge — source asset</div></a>
+<a class="card" href="guidelines/brand-stickers.html"><div class="t">Status Stickers</div><div class="s">SOLD / AVAILABLE source art</div></a>
+<a class="card" href="guidelines/brand-photography.html"><div class="t">Photography Style</div><div class="s">Warm, natural light, real rooms</div></a>
+<a class="card" href="guidelines/brand-poster.html"><div class="t">Promo Poster</div><div class="s">Reference for type + background texture</div></a>
+<a class="card" href="guidelines/brand-material-glossary.html"><div class="t">Material Glossary</div><div class="s">Rattan vs. bamboo vs. wicker</div></a>
+<a class="card" href="guidelines/brand-atomic-standard.html"><div class="t">Atomic Standard</div><div class="s">Quality markers for Behind-the-Find copy</div></a>
+</div>
+</div>
+
+<div class="section">
+<div class="section-head"><h2>Components</h2><span>Reusable UI primitives</span></div>
+<div class="grid">
+<a class="card" href="components/forms/forms.card.html"><div class="t">Forms</div><div class="s">Button, IconButton, Input</div></a>
+<a class="card" href="components/content/content.card.html"><div class="t">Content</div><div class="s">ProductCard, Tag, Avatar</div></a>
+<a class="card" href="components/feedback/statusbadge.card.html"><div class="t">Feedback</div><div class="s">StatusBadge — Available / Sold / New Drop</div></a>
+</div>
+</div>
+
+<div class="section">
+<div class="section-head"><h2>UI Kits</h2><span>Full-surface recreations</span></div>
+<div class="grid">
+<a class="card" href="ui_kits/shop/index.html"><div class="t">Instagram Shop</div><div class="s">Profile, highlights, product grid, DM-to-shop</div></a>
+<a class="card" href="ui_kits/website/index.html"><div class="t">Marketing Website</div><div class="s">Homepage concept mockup</div></a>
+</div>
+</div>
+
+<div class="section">
+<div class="section-head"><h2>Documents</h2><span>Downloadable references</span></div>
+<div class="grid">
+<a class="card" href="Atomic Finds ATX Brand Bible.html"><div class="t">Brand Bible</div><div class="s">Printable letter-size PDF brand book</div></a>
+</div>
+</div>
+
+</div>
+</body>
+</html>

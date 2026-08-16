@@ -1,0 +1,11 @@
+/* Atomic Finds — Webfonts
+   Display face: Mamba (W Type Foundry) — heavy retro flare-serif, Cooper Black
+   lineage. Real file supplied by the client, embedded below.
+   Body face is a system Helvetica stack per the brand brief (no webfont). */
+@font-face {
+  font-family: 'Mamba';
+  src: url('../assets/fonts/Mamba.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

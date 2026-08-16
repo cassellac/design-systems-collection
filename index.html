@@ -3,28 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Design Systems Collection — Central Hub</title>
+  <title>Design Systems Collection — Client Registry</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-dark: #0B0F17;
-      --bg-card: rgba(19, 26, 42, 0.7);
-      --bg-card-hover: rgba(27, 38, 59, 0.85);
-      --border-subtle: rgba(255, 255, 255, 0.08);
-      --border-accent: rgba(99, 102, 241, 0.3);
-      --text-main: #F1F5F9;
-      --text-muted: #94A3B8;
-      --text-dim: #64748B;
-      --accent-indigo: #6366F1;
-      --accent-purple: #8B5CF6;
-      --accent-cyan: #06B6D4;
-      --accent-glow: rgba(99, 102, 241, 0.15);
-      --radius-lg: 20px;
-      --radius-md: 12px;
+      --bg-page: #F9F6F0;       /* Bone White */
+      --bg-card: #FFFFFF;       /* Pure White */
+      --text-main: #2D2D2D;     /* Charcoal */
+      --text-muted: #6B6B6B;    /* Soft Gray */
+      --text-light: #888888;
+      --color-pulse-blue: #3A7BD5;
+      --color-pulse-blue-dark: #1D5FAD;
+      --color-signal-red: #C5301A;
+      --color-signal-red-dark: #A5200E;
+      --color-light-pink: #FADEEB;
+      --color-gold: #C9973A;
+      --border-subtle: rgba(45, 45, 45, 0.12);
+      --border-accent: rgba(58, 123, 213, 0.35);
+      --radius-lg: 12px;
+      --radius-md: 8px;
       --radius-pill: 9999px;
-      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-sans: 'Lexend Deca', system-ui, -apple-system, sans-serif;
       --font-mono: 'JetBrains Mono', monospace;
     }
 
@@ -35,15 +36,15 @@
     }
 
     body {
-      background-color: var(--bg-dark);
+      background-color: var(--bg-page);
       color: var(--text-main);
       font-family: var(--font-sans);
       min-height: 100vh;
       line-height: 1.6;
       background-image: 
-        radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
-        radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.05) 0%, transparent 60%);
+        linear-gradient(rgba(45, 45, 45, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(45, 45, 45, 0.04) 1px, transparent 1px);
+      background-size: 32px 32px;
       background-attachment: fixed;
     }
 
@@ -59,9 +60,9 @@
       gap: 8px;
       padding: 6px 14px;
       border-radius: var(--radius-pill);
-      background: rgba(99, 102, 241, 0.1);
-      border: 1px solid rgba(99, 102, 241, 0.25);
-      color: #A5B4FC;
+      background: rgba(58, 123, 213, 0.08);
+      border: 1px solid rgba(58, 123, 213, 0.2);
+      color: var(--color-pulse-blue-dark);
       font-size: 13px;
       font-weight: 600;
       margin-bottom: 20px;
@@ -72,23 +73,21 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #818CF8;
-      box-shadow: 0 0 10px #818CF8;
+      background: var(--color-signal-red);
+      box-shadow: 0 0 6px var(--color-signal-red);
     }
 
     h1 {
-      font-size: clamp(36px, 5vw, 56px);
+      font-size: clamp(32px, 5vw, 48px);
       font-weight: 800;
       letter-spacing: -0.02em;
       line-height: 1.15;
-      background: linear-gradient(135deg, #FFFFFF 30%, #94A3B8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: var(--text-main);
       margin-bottom: 16px;
     }
 
     .subtitle {
-      font-size: 18px;
+      font-size: 16px;
       color: var(--text-muted);
       max-width: 720px;
       font-weight: 400;
@@ -96,32 +95,43 @@
     }
 
     .stats-bar {
-      display: flex;
-      gap: 32px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
       margin-top: 36px;
-      padding-top: 28px;
-      border-top: 1px solid var(--border-subtle);
-      flex-wrap: wrap;
+      padding: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 4px 12px rgba(45, 45, 45, 0.02);
     }
 
     .stat-item {
       display: flex;
       flex-direction: column;
+      border-right: 1px solid var(--border-subtle);
+      padding-right: 20px;
+    }
+
+    .stat-item:last-child {
+      border-right: none;
+      padding-right: 0;
     }
 
     .stat-number {
       font-size: 28px;
       font-weight: 700;
-      color: #F8FAFC;
+      color: var(--text-main);
       font-family: var(--font-mono);
     }
 
     .stat-label {
-      font-size: 13px;
-      color: var(--text-dim);
+      font-size: 11px;
+      color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      font-weight: 600;
+      font-weight: 700;
+      margin-top: 4px;
     }
 
     main {
@@ -149,19 +159,20 @@
     .search-input {
       width: 100%;
       padding: 12px 18px 12px 44px;
-      background: rgba(15, 23, 42, 0.8);
+      background: var(--bg-card);
       border: 1px solid var(--border-subtle);
       border-radius: var(--radius-md);
-      color: #FFF;
+      color: var(--text-main);
       font-family: var(--font-sans);
       font-size: 14px;
       transition: all 0.2s ease;
+      box-shadow: 0 2px 6px rgba(45, 45, 45, 0.02);
     }
 
     .search-input:focus {
       outline: none;
-      border-color: var(--accent-indigo);
-      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+      border-color: var(--color-pulse-blue);
+      box-shadow: 0 0 0 3px rgba(58, 123, 213, 0.15);
     }
 
     .search-icon {
@@ -169,7 +180,7 @@
       left: 16px;
       top: 50%;
       transform: translateY(-50%);
-      color: var(--text-dim);
+      color: var(--text-light);
       width: 16px;
       height: 16px;
       pointer-events: none;
@@ -188,48 +199,37 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      backdrop-filter: blur(12px);
       transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
       position: relative;
+      box-shadow: 0 4px 16px rgba(45, 45, 45, 0.03);
     }
 
     .card:hover {
-      background: var(--bg-card-hover);
-      border-color: var(--border-accent);
-      transform: translateY(-6px);
-      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5), 0 0 30px rgba(99, 102, 241, 0.15);
+      border-color: var(--color-pulse-blue);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px rgba(45, 45, 45, 0.08);
     }
 
     .card-media {
-      height: 220px;
-      background: #1E293B;
-      position: relative;
-      overflow: hidden;
+      height: 160px;
+      background: #FAF9F6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
       border-bottom: 1px solid var(--border-subtle);
+      overflow: hidden;
     }
 
     .card-media img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: top center;
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
       transition: transform 0.4s ease;
     }
 
     .card:hover .card-media img {
-      transform: scale(1.04);
-    }
-
-    .card-media-placeholder {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #1E3A6E 0%, #0F172A 100%);
-      color: #94A3B8;
-      padding: 24px;
-      text-align: center;
+      transform: scale(1.03);
     }
 
     .card-body {
@@ -253,19 +253,19 @@
       letter-spacing: 0.05em;
       padding: 4px 10px;
       border-radius: var(--radius-pill);
-      background: rgba(255, 255, 255, 0.06);
+      background: rgba(45, 45, 45, 0.04);
       color: var(--text-muted);
-      border: 1px solid rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(45, 45, 45, 0.08);
     }
 
-    .tag.pulse { background: rgba(58, 123, 213, 0.15); color: #60A5FA; border-color: rgba(58, 123, 213, 0.3); }
-    .tag.cosmic { background: rgba(245, 200, 66, 0.15); color: #FBBF24; border-color: rgba(245, 200, 66, 0.3); }
-    .tag.health { background: rgba(43, 143, 169, 0.15); color: #38BDF8; border-color: rgba(43, 143, 169, 0.3); }
+    .tag.tag-digital { background: rgba(58, 123, 213, 0.1); color: var(--color-pulse-blue); border-color: rgba(58, 123, 213, 0.2); }
+    .tag.tag-atomic { background: rgba(211, 73, 11, 0.1); color: #D1490B; border-color: rgba(211, 73, 11, 0.2); }
+    .tag.tag-health { background: rgba(201, 151, 58, 0.1); color: var(--color-gold); border-color: rgba(201, 151, 58, 0.2); }
 
     .card-title {
       font-size: 22px;
       font-weight: 700;
-      color: #F8FAFC;
+      color: var(--text-main);
       margin-bottom: 10px;
       line-height: 1.3;
     }
@@ -274,17 +274,102 @@
       font-size: 14px;
       color: var(--text-muted);
       margin-bottom: 24px;
-      flex: 1;
       line-height: 1.6;
     }
 
-    .card-sublinks {
+    .card-links-section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-subtle);
+      margin-bottom: 24px;
+      flex: 1;
+    }
+
+    .links-group {
       display: flex;
       flex-direction: column;
       gap: 8px;
-      padding-top: 16px;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      margin-bottom: 24px;
+    }
+
+    .links-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-light);
+      margin-bottom: 4px;
+    }
+
+    .external-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--color-pulse-blue);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 12px;
+      background: rgba(58, 123, 213, 0.05);
+      border: 1px solid rgba(58, 123, 213, 0.12);
+      border-radius: var(--radius-md);
+      transition: all 0.15s ease;
+    }
+
+    .external-link:hover {
+      background: rgba(58, 123, 213, 0.1);
+      color: var(--color-pulse-blue-dark);
+      border-color: rgba(58, 123, 213, 0.25);
+    }
+
+    .concept-launch {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      padding: 10px 12px;
+      background: #FAF9F6;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      transition: all 0.15s ease;
+      color: var(--text-main);
+    }
+
+    .concept-launch:hover {
+      background: #FFFFFF;
+      border-color: var(--color-pulse-blue);
+      transform: translateX(2px);
+      box-shadow: 0 4px 8px rgba(45, 45, 45, 0.03);
+    }
+
+    .concept-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .dot-night { background-color: #FBBF24; box-shadow: 0 0 6px #FBBF24; }
+    .dot-retro { background-color: #D1490B; box-shadow: 0 0 6px #D1490B; }
+    .dot-social { background-color: #C42B2B; box-shadow: 0 0 6px #C42B2B; }
+
+    .concept-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .concept-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      line-height: 1.3;
+    }
+
+    .concept-desc {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
     }
 
     .sublink {
@@ -294,14 +379,17 @@
       color: var(--text-muted);
       text-decoration: none;
       font-size: 13px;
-      padding: 6px 10px;
-      border-radius: 6px;
+      padding: 8px 12px;
+      border-radius: var(--radius-md);
       transition: all 0.15s ease;
+      background: rgba(45, 45, 45, 0.02);
+      border: 1px solid transparent;
     }
 
     .sublink:hover {
-      background: rgba(255, 255, 255, 0.05);
-      color: #FFF;
+      background: #FFFFFF;
+      border-color: var(--border-subtle);
+      color: var(--text-main);
     }
 
     .sublink-arrow {
@@ -309,9 +397,14 @@
       transition: transform 0.15s ease;
     }
 
-    .sublink:hover .sublink-arrow {
+    .sublink:hover .sublink-arrow,
+    .concept-launch:hover .sublink-arrow {
       opacity: 1;
       transform: translateX(4px);
+    }
+
+    .card-actions {
+      margin-top: 8px;
     }
 
     .btn-launch {
@@ -322,18 +415,29 @@
       width: 100%;
       padding: 14px 20px;
       border-radius: var(--radius-md);
-      background: linear-gradient(135deg, var(--accent-indigo) 0%, var(--accent-purple) 100%);
       color: #FFFFFF;
       font-weight: 700;
       font-size: 14px;
       text-decoration: none;
       transition: all 0.2s ease;
-      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
     }
 
-    .btn-launch:hover {
-      filter: brightness(1.15);
-      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+    .btn-digital {
+      background: var(--color-pulse-blue);
+      box-shadow: 0 4px 12px rgba(58, 123, 213, 0.25);
+    }
+    .btn-digital:hover {
+      background: var(--color-pulse-blue-dark);
+      box-shadow: 0 6px 16px rgba(58, 123, 213, 0.35);
+    }
+
+    .btn-health {
+      background: var(--color-gold);
+      box-shadow: 0 4px 12px rgba(201, 151, 58, 0.25);
+    }
+    .btn-health:hover {
+      background: #B0822E;
+      box-shadow: 0 6px 16px rgba(201, 151, 58, 0.35);
     }
 
     footer {
@@ -346,7 +450,7 @@
       align-items: center;
       flex-wrap: wrap;
       gap: 20px;
-      color: var(--text-dim);
+      color: var(--text-muted);
       font-size: 13px;
     }
 
@@ -355,13 +459,13 @@
     }
 
     .footer-links a {
-      color: var(--text-muted);
+      color: var(--text-main);
       text-decoration: none;
-      margin-left: 16px;
+      font-weight: 600;
     }
 
     .footer-links a:hover {
-      color: #FFF;
+      color: var(--color-pulse-blue);
     }
   </style>
 </head>
@@ -372,27 +476,27 @@
       <span class="header-badge-dot"></span>
       Design Systems Registry
     </div>
-    <h1>Master Design System Collection</h1>
+    <h1>Client Design Systems Registry</h1>
     <p class="subtitle">
-      A centralized directory of interactive brand guidelines, UI component libraries, design tokens, and production-ready HTML templates.
+      A centralized editorial index of interactive brand guidelines, UI components, tokens, and templates styled under the AllyCMS identity.
     </p>
 
     <div class="stats-bar">
       <div class="stat-item">
         <span class="stat-number">3</span>
+        <span class="stat-label">Active Clients</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">5</span>
         <span class="stat-label">Design Systems</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">57</span>
-        <span class="stat-label">Spec Cards</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">150+</span>
+        <span class="stat-number">180+</span>
         <span class="stat-label">CSS Tokens</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">13</span>
-        <span class="stat-label">Full Page Templates</span>
+        <span class="stat-number">15+</span>
+        <span class="stat-label">Page Templates</span>
       </div>
     </div>
   </header>
@@ -400,128 +504,184 @@
   <main>
     <div class="search-filter">
       <div class="search-input-wrapper">
-        <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        <svg class="search-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
         </svg>
-        <input type="text" id="searchInput" class="search-input" placeholder="Search design systems, tokens, components...">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search clients, design systems, tags...">
       </div>
     </div>
 
     <div class="grid" id="systemsGrid">
       
-      <!-- ALLY CMS DESIGN SYSTEM -->
-      <article class="card" data-title="ally cms design system admin page editor dashboard">
+      <!-- DIGITAL ALLIES CARD -->
+      <article class="card" data-title="digital allies allycms design system admin page editor dashboard">
         <div class="card-media">
-          <img src="ally%20cms%20Design%20System/_thumbnail.webp" alt="AllyCMS Design System Preview" loading="lazy">
+          <img src="ally%20cms%20Design%20System/assets/ally-cms-logo-horizontal.png" alt="Digital Allies Logo" loading="lazy">
         </div>
         <div class="card-body">
           <div class="card-tags">
-            <span class="tag pulse">Admin & Content</span>
+            <span class="tag tag-digital">CMS Platform</span>
             <span class="tag">Pulse Blue</span>
             <span class="tag">8 Templates</span>
           </div>
-          <h2 class="card-title">AllyCMS Design System</h2>
+          <h2 class="card-title">Digital Allies</h2>
           <p class="card-description">
-            Clean, editorial content management interface with modular block panels, typography scale, page editor, research notes, and admin dashboards.
+            Clean, editorial administrative workspace featuring modular content block editors, typography hierarchies, page builders, and comprehensive dashboard layouts.
           </p>
 
-          <div class="card-sublinks">
-            <a class="sublink" href="ally%20cms%20Design%20System/templates/cms-dashboard/CmsDashboard.dc.html">
-              <span>CMS Dashboard Template</span>
-              <span class="sublink-arrow">→</span>
-            </a>
-            <a class="sublink" href="ally%20cms%20Design%20System/templates/cms-pages/CmsPages.dc.html">
-              <span>Page Editor & Block System</span>
-              <span class="sublink-arrow">→</span>
-            </a>
-            <a class="sublink" href="ally%20cms%20Design%20System/guidelines/brand.html">
-              <span>Brand Guidelines & Tokens</span>
-              <span class="sublink-arrow">→</span>
-            </a>
+          <div class="card-links-section">
+            <div class="links-group">
+              <span class="links-label">Websites & Portals</span>
+              <a href="http://digitalallies.net" target="_blank" class="external-link">
+                <span>digitalallies.net</span>
+                <span class="link-icon">↗</span>
+              </a>
+              <a href="http://brand.digitalallies.net" target="_blank" class="external-link">
+                <span>brand.digitalallies.net</span>
+                <span class="link-icon">↗</span>
+              </a>
+            </div>
+
+            <div class="links-group">
+              <span class="links-label">Quick Shortcuts</span>
+              <a class="sublink" href="ally%20cms%20Design%20System/templates/cms-dashboard/CmsDashboard.dc.html">
+                <span>CMS Dashboard Spec</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="sublink" href="ally%20cms%20Design%20System/templates/cms-pages/CmsPages.dc.html">
+                <span>Page Editor & Block System</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="sublink" href="ally%20cms%20Design%20System/guidelines/brand.html">
+                <span>Brand Guidelines & Tokens</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+            </div>
           </div>
 
-          <a href="ally%20cms%20Design%20System/index.html" class="btn-launch">
-            Explore AllyCMS System ➔
-          </a>
+          <div class="card-actions">
+            <a href="ally%20cms%20Design%20System/index.html" class="btn-launch btn-digital">
+              Explore AllyCMS Design System ➔
+            </a>
+          </div>
         </div>
       </article>
 
-      <!-- ATOMIC FINDS ATX DESIGN SYSTEM -->
-      <article class="card" data-title="atomic finds atx design system cosmic rattan e-commerce supabase galaxy">
+      <!-- ATOMIC FINDS ATX CARD -->
+      <article class="card" data-title="atomic finds atx design system cosmic rattan e-commerce supabase galaxy night market retro alter-ego social media">
         <div class="card-media">
-          <img src="Atomic%20Finds%20ATX%20-%20Design%20System/_thumbnail.webp" alt="Atomic Finds ATX Design System Preview" loading="lazy">
+          <img src="Atomic%20Finds%20ATX%20-%20Design%20System/Atomic%20Finds%20%E2%80%94%20Design%20System%20-%20Light%20Mode%20%22Retro%20Atomic%22%20Alter-Ego/assets/logo.png" alt="Atomic Finds ATX Logo" loading="lazy" style="max-height: 80px;">
         </div>
         <div class="card-body">
           <div class="card-tags">
-            <span class="tag cosmic">E-Commerce & Discovery</span>
-            <span class="tag">Celestial Yellow</span>
-            <span class="tag">Supabase Grid</span>
+            <span class="tag tag-atomic">E-Commerce</span>
+            <span class="tag">3 Brand Concepts</span>
+            <span class="tag">Vintage Rattan</span>
           </div>
           <h2 class="card-title">Atomic Finds ATX</h2>
           <p class="card-description">
-            Vintage rattan & cosmic discovery design system featuring glowing Orbiting Galaxy cards, mascot curator characters, live product grids, and full homepage kit.
+            Vintage bamboo & rattan e-commerce design identity. Showcases three distinct brand discovery concepts for Jenny's review: Galaxy Night Market, Retro Atomic Light Mode, and Social Media Inspired.
           </p>
 
-          <div class="card-sublinks">
-            <a class="sublink" href="Atomic%20Finds%20ATX%20-%20Design%20System/ui_kits/website/index.html">
-              <span>Full Website Homepage Kit</span>
-              <span class="sublink-arrow">→</span>
-            </a>
-            <a class="sublink" href="Atomic%20Finds%20ATX%20-%20Design%20System/components/galaxy.card.html">
-              <span>Signature Orbiting Galaxy Card</span>
-              <span class="sublink-arrow">→</span>
-            </a>
-            <a class="sublink" href="Atomic%20Finds%20ATX%20-%20Design%20System/guidelines/starfield.card.html">
-              <span>Starry Galaxy Utility</span>
-              <span class="sublink-arrow">→</span>
-            </a>
-          </div>
+          <div class="card-links-section">
+            <div class="links-group">
+              <span class="links-label">Websites & Portals</span>
+              <a href="http://atomicfindsatx.store" target="_blank" class="external-link">
+                <span>atomicfindsatx.store</span>
+                <span class="link-icon">↗</span>
+              </a>
+              <a href="http://cms.digitalallies.net" target="_blank" class="external-link">
+                <span>cms.digitalallies.net</span>
+                <span class="link-icon">↗</span>
+              </a>
+            </div>
 
-          <a href="Atomic%20Finds%20ATX%20-%20Design%20System/index.html" class="btn-launch">
-            Explore Atomic Finds ATX ➔
-          </a>
-        </div>
-      </article>
+            <div class="links-group">
+              <span class="links-label">Brand Discovery Concepts</span>
+              <a class="concept-launch" href="Atomic%20Finds%20ATX%20-%20Design%20System/Atomic%20Finds%20ATX%20-%20Design%20System%20-%20Galaxy%20Night%20Market%20%28current%29/index.html">
+                <span class="concept-dot dot-night"></span>
+                <div class="concept-info">
+                  <span class="concept-name">Galaxy Night Market (Current)</span>
+                  <span class="concept-desc">Dark mode, cosmic rattan, orbiting card UI</span>
+                </div>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="concept-launch" href="Atomic%20Finds%20ATX%20-%20Design%20System/Atomic%20Finds%20%E2%80%94%20Design%20System%20-%20Light%20Mode%20%22Retro%20Atomic%22%20Alter-Ego/index.html">
+                <span class="concept-dot dot-retro"></span>
+                <div class="concept-info">
+                  <span class="concept-name">Retro Atomic (Light Mode Alter-Ego)</span>
+                  <span class="concept-desc">Cream background, thick ink borders, hard offset shadows</span>
+                </div>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="concept-launch" href="Atomic%20Finds%20ATX%20-%20Design%20System/Atomic%20Finds%20%E2%80%94%20Design%20System%20-%20Social%20Media%20Inspired%20/index.html">
+                <span class="concept-dot dot-social"></span>
+                <div class="concept-info">
+                  <span class="concept-name">Social Media Inspired Concept</span>
+                  <span class="concept-desc">Fredoka display font, Instagram shop, warm wood shades</span>
+                </div>
+                <span class="sublink-arrow">→</span>
+              </a>
+            </div>
 
-      <!-- HEALTHCARE TRAINING CENTER (CALADRIUS) DESIGN SYSTEM -->
-      <article class="card" data-title="healthcare training center caladrius medical compliance learner app phosphor">
-        <div class="card-media">
-          <div class="card-media-placeholder">
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
-              <img src="Healthcare%20Training%20Center%20-%20Design%20System/assets/brand/logos/logo-compound-navy.png" alt="Caladrius Mark" style="max-height: 110px; width: auto; object-fit: contain;">
-              <span style="font-size: 13px; font-weight: 600; color: #E2E8F0;">Caladrius Healthcare Training</span>
+            <div class="links-group">
+              <span class="links-label">Storefront & Shop Kit Shortcuts</span>
+              <a class="sublink" href="Atomic%20Finds%20ATX%20-%20Design%20System/Atomic%20Finds%20ATX%20-%20Design%20System%20-%20Galaxy%20Night%20Market%20%28current%29/ui_kits/website/index.html">
+                <span>Galaxy Night Market Storefront</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="sublink" href="Atomic%20Finds%20ATX%20-%20Design%20System/Atomic%20Finds%20%E2%80%94%20Design%20System%20-%20Light%20Mode%20%22Retro%20Atomic%22%20Alter-Ego/ui_kits/store/index.html">
+                <span>Retro Atomic Storefront Kit</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="sublink" href="Atomic%20Finds%20ATX%20-%20Design%20System/Atomic%20Finds%20%E2%80%94%20Design%20System%20-%20Social%20Media%20Inspired%20/ui_kits/shop/index.html">
+                <span>Instagram Shop DM-to-Shop Kit</span>
+                <span class="sublink-arrow">→</span>
+              </a>
             </div>
           </div>
         </div>
+      </article>
+
+      <!-- HEALTHCARE TRAINING CENTER CARD -->
+      <article class="card" data-title="healthcare training center caladrius medical compliance learner app phosphor">
+        <div class="card-media">
+          <img src="Healthcare%20Training%20Center%20-%20Design%20System/assets/brand/logos/logo-horizontal.png" alt="Caladrius Logo" loading="lazy">
+        </div>
         <div class="card-body">
           <div class="card-tags">
-            <span class="tag health">Healthcare & Compliance</span>
+            <span class="tag tag-health">Medical Compliance</span>
             <span class="tag">5 Room Themes</span>
-            <span class="tag">Learner UI Kit</span>
+            <span class="tag">Learner App</span>
           </div>
           <h2 class="card-title">Healthcare Training Center</h2>
           <p class="card-description">
-            Caladrius medical training platform featuring room door cards, instructor illustrations, Phosphor icon set, completion certificates, and full learner web application.
+            Caladrius corporate healthcare platform with customizable virtual room door cards, certificates, flat instructor graphics, and a full compliance learning UI.
           </p>
 
-          <div class="card-sublinks">
-            <a class="sublink" href="Healthcare%20Training%20Center%20-%20Design%20System/ui_kits/learner-app/index.html">
-              <span>Learner Application UI Kit</span>
-              <span class="sublink-arrow">→</span>
-            </a>
-            <a class="sublink" href="Healthcare%20Training%20Center%20-%20Design%20System/Healthcare%20Training%20Center%20-%20Marketing%20Site.html">
-              <span>Marketing Landing Page</span>
-              <span class="sublink-arrow">→</span>
-            </a>
-            <a class="sublink" href="Healthcare%20Training%20Center%20-%20Design%20System/preview/characters.html">
-              <span>Instructor Illustration Cast</span>
-              <span class="sublink-arrow">→</span>
-            </a>
+          <div class="card-links-section">
+            <div class="links-group">
+              <span class="links-label">Quick Shortcuts</span>
+              <a class="sublink" href="Healthcare%20Training%20Center%20-%20Design%20System/ui_kits/learner-app/index.html">
+                <span>Learner Application UI Kit</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="sublink" href="Healthcare%20Training%20Center%20-%20Design%20System/Healthcare%20Training%20Center%20-%20Marketing%20Site.html">
+                <span>Marketing Landing Page</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+              <a class="sublink" href="Healthcare%20Training%20Center%20-%20Design%20System/preview/characters.html">
+                <span>Instructor Illustration Cast</span>
+                <span class="sublink-arrow">→</span>
+              </a>
+            </div>
           </div>
 
-          <a href="Healthcare%20Training%20Center%20-%20Design%20System/index.html" class="btn-launch">
-            Explore Healthcare Training ➔
-          </a>
+          <div class="card-actions">
+            <a href="Healthcare%20Training%20Center%20-%20Design%20System/index.html" class="btn-launch btn-health">
+              Explore Caladrius Design System ➔
+            </a>
+          </div>
         </div>
       </article>
 
@@ -531,7 +691,7 @@
   <footer>
     <div class="footer-left">
       <p><strong>Design Systems Hub</strong> — Multi-project collection viewer.</p>
-      <p>Click any card to launch the interactive design system documentation.</p>
+      <p>Click any link to launch external sites or local design system specs.</p>
     </div>
     <div class="footer-links">
       <a href="README.md">Repository README</a>
