@@ -1,0 +1,250 @@
+/* ==========================================================================
+   Atomic Finds ATX — root stylesheet
+   Import order matters: tokens first, then base, then components.
+   ========================================================================== */
+
+@import url("tokens/colors.css");
+@import url("tokens/typography.css");
+@import url("tokens/space.css");
+@import url("components.css");
+
+/* --- Base ---------------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  background: var(--af-surface);
+  color: var(--af-text);
+  font-family: var(--af-font-body);
+  font-size: var(--af-text-base);
+  line-height: var(--af-leading-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Display headings are Mamba. Keep to three levels per composition. */
+/* H1 + H2 are Mamba. h3 is NOT — it is the subhead level and takes Pacifico
+   (see the locked hierarchy in tokens/typography.css). */
+h1, h2, .af-display {
+  font-family: var(--af-font-display);
+  font-weight: 400;
+  line-height: var(--af-leading-tight);
+  letter-spacing: var(--af-tracking-display);
+  color: var(--af-olive-teal); /* #2E5D4E (Olive/Teal) */
+  margin: 0 0 var(--af-space-4);
+}
+
+/* Subheading level — Pacifico. Kept short by design: a script face is hard to
+   read at length, so this never carries body copy. */
+h3, .af-subhead {
+  font-family: var(--af-font-script);
+  font-weight: 400;
+  line-height: var(--af-leading-snug);
+  color: var(--af-olive-teal);
+  margin: 0 0 var(--af-space-3);
+}
+
+h1 { font-size: var(--af-text-3xl); color: var(--af-avocado); /* #6B7A32 (Avocado) */ }
+h2 { font-size: var(--af-text-2xl); color: var(--af-olive-teal); }
+h3 { font-size: var(--af-text-xl); color: var(--af-avocado); }
+
+p { margin: 0 0 var(--af-space-4); max-width: var(--af-measure); }
+
+a { color: var(--af-orange); text-decoration: none; }
+a:hover { color: var(--af-ink); text-decoration: none; }
+
+/* One visible focus treatment everywhere — 2px Burnt Orange offset by 4px. */
+:where(a, button, [tabindex], input, select, textarea):focus-visible {
+  outline: 2px solid var(--af-orange); /* Burnt Orange #C8501E */
+  outline-offset: 4px;
+  border-radius: var(--af-radius-sm);
+}
+
+/* --- Brand type utilities ------------------------------------------------ */
+
+/* The tagline and curator quotes — the only two places script is used. */
+.af-script {
+  font-family: var(--af-font-script);
+  color: var(--af-orange-deep);
+  line-height: var(--af-leading-snug);
+}
+
+/* Small-caps label: section eyebrows, field names on the record card. */
+.af-label {
+  font-family: var(--af-font-body);
+  font-size: var(--af-text-sm);
+  font-weight: 600;
+  letter-spacing: var(--af-tracking-label);
+  text-transform: uppercase;
+  color: var(--af-ink-soft);
+}
+
+.af-lead { font-size: var(--af-text-lg); color: var(--af-ink-soft); }
+
+/* --- Motifs -------------------------------------------------------------- */
+
+/* Sparkle is the PRIMARY motif; starburst is secondary. Both inherit
+   currentColor so they can sit on any brand surface. */
+.af-sparkle, .af-starburst {
+  display: inline-block;
+  vertical-align: -0.125em;
+  color: var(--af-orange);
+  flex: none;
+}
+
+/* The sparkle is taller than it is wide (see sparkle.svg) — give it the real
+   5:8 ratio rather than squashing it into a square box. */
+.af-sparkle   { height: 1em; width: 0.625em; }
+.af-starburst { height: 1em; width: 1em; }
+
+/* Mustard is the sparkle's second colourway — used for the small accent
+   sparkles that trail a headline. */
+.af-sparkle--gold { color: var(--af-mustard); }
+
+/* Slow twinkle — the one piece of decorative motion the brand allows. */
+@keyframes af-twinkle {
+  0%, 100% { opacity: 1;    transform: scale(1)    rotate(0deg); }
+  50%      { opacity: 0.55; transform: scale(0.86) rotate(12deg); }
+}
+.af-sparkle--twinkle { animation: af-twinkle 4.5s var(--af-ease) infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .af-sparkle--twinkle { animation: none; }
+}
+
+/* --- Patterns ------------------------------------------------------------
+   The brand guide names five elements in its Visual Language row:
+     sparkle (primary motif) · atomic starburst (secondary motif) ·
+     cowboy boot · botanical pattern · rattan/cane weave texture.
+
+   Three of those exist as repeating patterns. Each pattern is a SURFACE, and
+   the rule is ONE pattern per section in ONE role only — never two patterns,
+   never two scales, always generous cream around it.                       */
+
+.af-pattern { background-color: var(--af-cream); background-repeat: repeat; }
+
+/* Section ground — the workhorse. The botanical patterns were retired from
+   textures/; pattern-atomic.png replaces them. Cream ground with scattered
+   starbursts, so at --af-pattern-ghost it reads as a faint warm texture.
+   `--botanical` is kept as an alias so existing markup keeps working. */
+.af-pattern--botanical,
+.af-pattern--atomic-ground {
+  background-image: url("assets/textures/pattern-atomic.png");
+  background-size: 460px;
+}
+
+/* Atomic starbursts scattered on cream — for playful/celebratory surfaces. */
+.af-pattern--atomic {
+  background-image: url("assets/textures/pattern-atomic.png");
+  background-size: 380px;
+}
+
+/* Sparkle field — the lightest of the three; good behind large type. */
+.af-pattern--sparkle {
+  background-image: url("assets/textures/pattern-sparkle.png");
+  background-size: 380px;
+}
+
+/* Palma Ginkgo pattern for section variation.
+   TODO(asset-missing): 002_pattern-palma-ginkgo…png is not in the repo. Left
+   unset deliberately rather than substituted with another pattern — supply the
+   file as textures/pattern-palma-ginkgo.png and restore the rule. */
+.af-pattern--ginkgo {
+  background-size: 460px;
+}
+
+/* Trailing greenery pattern for story section.
+   TODO(asset-missing): 001_pattern-trailing-greenery…png is not in the repo.
+   Supply as textures/pattern-trailing-greenery.png and restore the rule. */
+.af-pattern--trailing {
+  background-size: 460px;
+}
+
+.af-asset-missing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--af-space-2);
+  text-align: center;
+  font-family: var(--af-font-body);
+  font-size: var(--af-text-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--af-ink-soft);
+  background: repeating-linear-gradient(
+    45deg, var(--af-cream) 0 8px, var(--af-surface-sunk) 8px 16px);
+  border: 2px dashed var(--af-orange);
+  border-radius: var(--af-radius-sm);
+}
+
+/* Tone-on-tone: drop a pattern to a whisper (3% opacity) spanning full 100vw width. */
+.af-pattern--ghost {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: var(--af-pattern-ghost);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+/* --- The three pattern ROLES ---------------------------------------------
+   (a) hero background  (b) border / divider  (c) card-as-frame            */
+
+/* (a) Hero background — pattern sits in a ::before layer so it can be faded
+   independently while the content above stays at full contrast. */
+.af-pattern-hero { position: relative; isolation: isolate; background: var(--af-cream); }
+.af-pattern-hero > .af-pattern {
+  position: absolute; inset: 0; z-index: -1;
+  background-color: transparent;
+}
+
+/* (b) Border / divider — a thin band of pattern marking a featured section. */
+.af-pattern-rule { height: 22px; width: 100%; }
+
+/* (c) Card-as-frame — the pattern IS the card ground and the piece sits on a
+   cream mat inside it, so the pattern frames the furniture instead of
+   competing with it. */
+.af-pattern-frame {
+  position: relative; isolation: isolate;
+  padding: var(--af-space-4);
+  border-radius: var(--af-radius-card);
+  border: var(--af-border-width) solid var(--af-ink);
+}
+.af-pattern-frame__mat {
+  background: var(--af-cream);
+  padding: var(--af-space-5);
+  border-radius: calc(var(--af-radius-card) - 4px);
+  border: var(--af-border-width) solid var(--af-ink);
+}
+
+/* --- Utility container --------------------------------------------------- */
+/* Fluid gutter. A flat --af-space-5 (48px) took 96px out of a 375px screen —
+   a quarter of the viewport — which is what left mobile cards so narrow, and
+   on desktop it squeezed the wider elements. 16px on phones, 48px on desktop. */
+.af-container {
+  width: 100%;
+  max-width: var(--af-container);
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 3vw, 3rem);
+}
+
+.af-grid {
+  display: grid;
+  gap: var(--af-space-5);
+}
+.af-grid--2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.af-grid--3 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }

@@ -1,0 +1,617 @@
+[
+  {
+    "id": "cap_mr1yqtza_0aogmg",
+    "selector": "div.min-h-screen",
+    "label": "THE SIGNATURE COLLECTION Galaxy Card cur…",
+    "tag": "div",
+    "url": "https://af-atx.figma.site/",
+    "title": "Atomic Finds ATX - Galaxy Product Card Demo",
+    "timestamp": "2026-07-01T10:59:18.214Z",
+    "innerText": "THE SIGNATURE COLLECTION\n\nGalaxy Card\n\ncurated finds, in orbit\n\nRattan Lounge Chair\n\nvintage find\n\nNewly restored upholstery in neutral linen. A statement piece that catches light beautifully. Fully functional and ready for your living room.\n\n$145\nWiccer Book Shelf\n\nvintage find\n\nBeautiful natural patina from decades of use. Perfect for adding vertical interest. Delicate joinery, impeccable craftsmanship.\n\n$145\nBamboo Lamp\n\nglow keeper\n\nWoven rattan pendant shade, rewired and ready to hang. Emits a warm, patterned glow.\n\n$220\nPeacock\n\nvintage find\n\n1970s rattan peacock chair, restored cane back. A dramatic seating option for sunrooms.\n\n$1450",
+    "outerHTML": "<div class=\"min-h-screen bg-[#111111] bg-[url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&amp;w=3293&amp;auto=format&amp;fit=crop')] bg-cover bg-center bg-fixed py-24 px-8 font-sans overflow-hidden\"><div class=\"fixed inset-0 bg-black/60 pointer-events-none\"></div><div class=\"relative z-10 max-w-6xl mx-auto\"><div class=\"text-center mb-20 space-y-4\"><p class=\"text-gray-400 uppercase tracking-[0.3em] text-sm font-semibold\">The Signature Collection</p><h1 class=\"text-6xl md:text-7xl font-['Abril_Fatface'] text-white\">Galaxy Card</h1><p class=\"font-['Dancing_Script'] text-3xl md:text-4xl text-[#d4994f] mt-2\">curated finds, in orbit</p></div><div class=\"flex flex-wrap justify-center gap-y-24 md:gap-y-32 gap-x-12 md:gap-x-[240px] px-4 md:px-20 py-10\"><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r0:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(111.182deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(248.818deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-rattan-chair-04-1.0d719a75.png\" alt=\"Rattan Lounge Chair\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Rattan Lounge Chair</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Newly restored upholstery in neutral linen. A statement piece that catches light beautifully. Fully functional and ready for your living room.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$145<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r3:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(111.182deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(248.818deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-wiccer-book-shelf-01.de60fd7b.png\" alt=\"Wiccer Book Shelf\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Wiccer Book Shelf</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Beautiful natural patina from decades of use. Perfect for adding vertical interest. Delicate joinery, impeccable craftsmanship.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$145<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r6:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(111.182deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(248.818deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-lamp-04-1.9e0f7e5d.png\" alt=\"Bamboo Lamp\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Bamboo Lamp</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">glow keeper</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Woven rattan pendant shade, rewired and ready to hang. Emits a warm, patterned glow.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$220<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r9:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(111.182deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(248.818deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-peacock-chair-02-1.5e14b9cf.png\" alt=\"Peacock\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Peacock</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">1970s rattan peacock chair, restored cane back. A dramatic seating option for sunrooms.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$1450<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div></div></div></div>",
+    "rect": {
+      "x": 0,
+      "y": -681,
+      "width": 1677,
+      "height": 1684
+    },
+    "computedStyles": {
+      "display": "block",
+      "width": "1677px",
+      "height": "1684px",
+      "padding": "96px 32px",
+      "border": "0px solid rgba(0, 0, 0, 0.1)",
+      "box-sizing": "border-box",
+      "background": "rgb(17, 17, 17) url(\"https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=3293&auto=format&fit=crop\") repeat fixed 50% 50% / cover padding-box border-box",
+      "color": "oklch(0.145 0 0)",
+      "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-size": "16px",
+      "line-height": "24px",
+      "text-decoration": "none",
+      "overflow": "hidden",
+      "transition": "all"
+    },
+    "cssRules": [
+      {
+        "selector": "*, ::before, ::after, ::backdrop",
+        "css": "--tw-translate-x: 0; --tw-translate-y: 0; --tw-translate-z: 0; --tw-rotate-x: initial; --tw-rotate-y: initial; --tw-rotate-z: initial; --tw-skew-x: initial; --tw-skew-y: initial; --tw-space-y-reverse: 0; --tw-space-x-reverse: 0; --tw-border-style: solid; --tw-gradient-position: initial; --tw-gradient-from: #0000; --tw-gradient-via: #0000; --tw-gradient-to: #0000; --tw-gradient-stops: initial; --tw-gradient-via-stops: initial; --tw-gradient-from-position: 0%; --tw-gradient-via-position: 50%; --tw-gradient-to-position: 100%; --tw-leading: initial; --tw-font-weight: initial; --tw-tracking: initial; --tw-ordinal: initial; --tw-slashed-zero: initial; --tw-numeric-figure: initial; --tw-numeric-spacing: initial; --tw-numeric-fraction: initial; --tw-shadow: 0 0 #0000; --tw-shadow-color: initial; --tw-shadow-alpha: 100%; --tw-inset-shadow: 0 0 #0000; --tw-inset-shadow-color: initial; --tw-inset-shadow-alpha: 100%; --tw-ring-color: initial; --tw-ring-shadow: 0 0 #0000; --tw-inset-ring-color: initial; --tw-inset-ring-shadow: 0 0 #0000; --tw-ring-inset: initial; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-offset-shadow: 0 0 #0000; --tw-outline-style: solid; --tw-blur: initial; --tw-brightness: initial; --tw-contrast: initial; --tw-grayscale: initial; --tw-hue-rotate: initial; --tw-invert: initial; --tw-opacity: initial; --tw-saturate: initial; --tw-sepia: initial; --tw-drop-shadow: initial; --tw-drop-shadow-color: initial; --tw-drop-shadow-alpha: 100%; --tw-drop-shadow-size: initial; --tw-backdrop-blur: initial; --tw-backdrop-brightness: initial; --tw-backdrop-contrast: initial; --tw-backdrop-grayscale: initial; --tw-backdrop-hue-rotate: initial; --tw-backdrop-invert: initial; --tw-backdrop-opacity: initial; --tw-backdrop-saturate: initial; --tw-backdrop-sepia: initial; --tw-duration: initial; --tw-ease: initial; --tw-content: \"\"; --tw-animation-delay: 0s; --tw-animation-direction: normal; --tw-animation-duration: initial; --tw-animation-fill-mode: none; --tw-animation-iteration-count: 1; --tw-enter-blur: 0; --tw-enter-opacity: 1; --tw-enter-rotate: 0; --tw-enter-scale: 1; --tw-enter-translate-x: 0; --tw-enter-translate-y: 0; --tw-exit-blur: 0; --tw-exit-opacity: 1; --tw-exit-rotate: 0; --tw-exit-scale: 1; --tw-exit-translate-x: 0; --tw-exit-translate-y: 0;",
+        "media": "(((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b))))"
+      },
+      {
+        "selector": "*, ::after, ::before, ::backdrop",
+        "css": "box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px;"
+      },
+      {
+        "selector": "*",
+        "css": "border-color: var(--border); outline-color: var(--ring);"
+      },
+      {
+        "selector": "*",
+        "css": "outline-color: color-mix(in oklab,var(--ring)50%,transparent);",
+        "media": "(color:color-mix(in lab,red,red))"
+      },
+      {
+        "selector": ".min-h-screen",
+        "css": "min-height: 100vh;"
+      },
+      {
+        "selector": ".overflow-hidden",
+        "css": "overflow: hidden;"
+      },
+      {
+        "selector": ".bg-\\[\\#111111\\]",
+        "css": "background-color: rgb(17, 17, 17);"
+      },
+      {
+        "selector": ".bg-\\[url\\(\\'https\\:\\/\\/images\\.unsplash\\.com\\/photo-1506318137071-a8e063b4bec0\\?q\\=80\\&w\\=3293\\&auto\\=format\\&fit\\=crop\\'\\)\\]",
+        "css": "background-image: url(\"https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=3293&auto=format&fit=crop\");"
+      },
+      {
+        "selector": ".bg-cover",
+        "css": "background-size: cover;"
+      },
+      {
+        "selector": ".bg-fixed",
+        "css": "background-attachment: fixed;"
+      },
+      {
+        "selector": ".bg-center",
+        "css": "background-position: 50% center;"
+      },
+      {
+        "selector": ".px-8",
+        "css": "padding-inline: calc(var(--spacing)*8);"
+      },
+      {
+        "selector": ".py-24",
+        "css": "padding-block: calc(var(--spacing)*24);"
+      },
+      {
+        "selector": ".font-sans",
+        "css": "font-family: var(--font-sans);"
+      }
+    ]
+  },
+  {
+    "id": "cap_mr1yr2it_8kfccy",
+    "selector": "div.flex",
+    "label": "Rattan Lounge Chair vintage find Newly r…",
+    "tag": "div",
+    "url": "https://af-atx.figma.site/",
+    "title": "Atomic Finds ATX - Galaxy Product Card Demo",
+    "timestamp": "2026-07-01T10:59:29.285Z",
+    "innerText": "Rattan Lounge Chair\n\nvintage find\n\nNewly restored upholstery in neutral linen. A statement piece that catches light beautifully. Fully functional and ready for your living room.\n\n$145\nWiccer Book Shelf\n\nvintage find\n\nBeautiful natural patina from decades of use. Perfect for adding vertical interest. Delicate joinery, impeccable craftsmanship.\n\n$145\nBamboo Lamp\n\nglow keeper\n\nWoven rattan pendant shade, rewired and ready to hang. Emits a warm, patterned glow.\n\n$220\nPeacock\n\nvintage find\n\n1970s rattan peacock chair, restored cane back. A dramatic seating option for sunrooms.\n\n$1450",
+    "outerHTML": "<div class=\"flex flex-wrap justify-center gap-y-24 md:gap-y-32 gap-x-12 md:gap-x-[240px] px-4 md:px-20 py-10\"><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r0:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(270.576deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(89.424deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-rattan-chair-04-1.0d719a75.png\" alt=\"Rattan Lounge Chair\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Rattan Lounge Chair</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Newly restored upholstery in neutral linen. A statement piece that catches light beautifully. Fully functional and ready for your living room.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$145<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r3:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(270.576deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(89.424deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-wiccer-book-shelf-01.de60fd7b.png\" alt=\"Wiccer Book Shelf\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Wiccer Book Shelf</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Beautiful natural patina from decades of use. Perfect for adding vertical interest. Delicate joinery, impeccable craftsmanship.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$145<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r6:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(270.576deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(89.424deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-lamp-04-1.9e0f7e5d.png\" alt=\"Bamboo Lamp\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Bamboo Lamp</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">glow keeper</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Woven rattan pendant shade, rewired and ready to hang. Emits a warm, patterned glow.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$220<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div><div class=\"relative group cursor-pointer w-[310px] sm:w-[360px] h-[460px] sm:h-[520px] shrink-0 isolate perspective-[1200px]\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r9:\" data-state=\"closed\"><div class=\"w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.03]\" style=\"transform-style: preserve-3d;\"><div class=\"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] flex items-center justify-center pointer-events-none\" style=\"transform-style: preserve-3d;\"><div class=\"absolute inset-0 flex items-center justify-center\" style=\"transform: rotateZ(-35deg) rotateX(75deg); transform-style: preserve-3d;\"><div class=\"absolute w-full h-full rounded-[50%] border-[4px] border-[#f3ca63]/70 shadow-[0_0_30px_rgba(243,202,99,0.6),inset_0_0_20px_rgba(243,202,99,0.4)]\" style=\"transform-style: preserve-3d; transform: rotateZ(270.576deg);\"><div class=\"absolute inset-[10px] rounded-[50%] border border-[#f3ca63]/30\"></div><div class=\"absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2\" style=\"transform-style: preserve-3d;\"><div style=\"transform-style: preserve-3d; transform: rotateZ(89.424deg);\"><div class=\"w-7 h-7 rounded-full shadow-[0_0_15px_rgba(163,228,215,0.8),inset_0_0_8px_rgba(0,0,0,0.5)] border border-[#cffff5]/50 relative\" style=\"transform: rotateX(-75deg) rotateZ(35deg); background: radial-gradient(circle at 30% 30%, rgb(255, 255, 255) 0%, rgb(163, 228, 215) 20%, rgb(43, 130, 113) 60%, rgb(10, 54, 46) 100%); transform-style: preserve-3d;\"></div></div></div><div class=\"absolute top-[20%] left-[10%] w-2 h-2 rounded-full bg-white shadow-[0_0_15px_white]\"></div><div class=\"absolute bottom-[20%] right-[10%] w-2.5 h-2.5 rounded-full bg-[#f3ca63] shadow-[0_0_20px_#f3ca63]\"></div><div class=\"absolute top-[40%] right-[5%] w-1.5 h-1.5 rounded-full bg-white shadow-[0_0_10px_white]\"></div></div></div></div><div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-peacock-chair-02-1.5e14b9cf.png\" alt=\"Peacock\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Peacock</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">1970s rattan peacock chair, restored cane back. A dramatic seating option for sunrooms.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$1450<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div></div></div></div>",
+    "rect": {
+      "x": 263,
+      "y": -341,
+      "width": 1152,
+      "height": 1248
+    },
+    "computedStyles": {
+      "display": "flex",
+      "width": "1152px",
+      "height": "1248px",
+      "padding": "40px 80px",
+      "border": "0px solid rgba(0, 0, 0, 0.1)",
+      "box-sizing": "border-box",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "oklch(0.145 0 0)",
+      "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-size": "16px",
+      "line-height": "24px",
+      "text-decoration": "none",
+      "flex-wrap": "wrap",
+      "justify-content": "center",
+      "gap": "128px 240px",
+      "transition": "all"
+    },
+    "cssRules": [
+      {
+        "selector": "*, ::before, ::after, ::backdrop",
+        "css": "--tw-translate-x: 0; --tw-translate-y: 0; --tw-translate-z: 0; --tw-rotate-x: initial; --tw-rotate-y: initial; --tw-rotate-z: initial; --tw-skew-x: initial; --tw-skew-y: initial; --tw-space-y-reverse: 0; --tw-space-x-reverse: 0; --tw-border-style: solid; --tw-gradient-position: initial; --tw-gradient-from: #0000; --tw-gradient-via: #0000; --tw-gradient-to: #0000; --tw-gradient-stops: initial; --tw-gradient-via-stops: initial; --tw-gradient-from-position: 0%; --tw-gradient-via-position: 50%; --tw-gradient-to-position: 100%; --tw-leading: initial; --tw-font-weight: initial; --tw-tracking: initial; --tw-ordinal: initial; --tw-slashed-zero: initial; --tw-numeric-figure: initial; --tw-numeric-spacing: initial; --tw-numeric-fraction: initial; --tw-shadow: 0 0 #0000; --tw-shadow-color: initial; --tw-shadow-alpha: 100%; --tw-inset-shadow: 0 0 #0000; --tw-inset-shadow-color: initial; --tw-inset-shadow-alpha: 100%; --tw-ring-color: initial; --tw-ring-shadow: 0 0 #0000; --tw-inset-ring-color: initial; --tw-inset-ring-shadow: 0 0 #0000; --tw-ring-inset: initial; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-offset-shadow: 0 0 #0000; --tw-outline-style: solid; --tw-blur: initial; --tw-brightness: initial; --tw-contrast: initial; --tw-grayscale: initial; --tw-hue-rotate: initial; --tw-invert: initial; --tw-opacity: initial; --tw-saturate: initial; --tw-sepia: initial; --tw-drop-shadow: initial; --tw-drop-shadow-color: initial; --tw-drop-shadow-alpha: 100%; --tw-drop-shadow-size: initial; --tw-backdrop-blur: initial; --tw-backdrop-brightness: initial; --tw-backdrop-contrast: initial; --tw-backdrop-grayscale: initial; --tw-backdrop-hue-rotate: initial; --tw-backdrop-invert: initial; --tw-backdrop-opacity: initial; --tw-backdrop-saturate: initial; --tw-backdrop-sepia: initial; --tw-duration: initial; --tw-ease: initial; --tw-content: \"\"; --tw-animation-delay: 0s; --tw-animation-direction: normal; --tw-animation-duration: initial; --tw-animation-fill-mode: none; --tw-animation-iteration-count: 1; --tw-enter-blur: 0; --tw-enter-opacity: 1; --tw-enter-rotate: 0; --tw-enter-scale: 1; --tw-enter-translate-x: 0; --tw-enter-translate-y: 0; --tw-exit-blur: 0; --tw-exit-opacity: 1; --tw-exit-rotate: 0; --tw-exit-scale: 1; --tw-exit-translate-x: 0; --tw-exit-translate-y: 0;",
+        "media": "(((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b))))"
+      },
+      {
+        "selector": "*, ::after, ::before, ::backdrop",
+        "css": "box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px;"
+      },
+      {
+        "selector": "*",
+        "css": "border-color: var(--border); outline-color: var(--ring);"
+      },
+      {
+        "selector": "*",
+        "css": "outline-color: color-mix(in oklab,var(--ring)50%,transparent);",
+        "media": "(color:color-mix(in lab,red,red))"
+      },
+      {
+        "selector": ".flex",
+        "css": "display: flex;"
+      },
+      {
+        "selector": ".flex-wrap",
+        "css": "flex-wrap: wrap;"
+      },
+      {
+        "selector": ".justify-center",
+        "css": "justify-content: center;"
+      },
+      {
+        "selector": ".gap-x-12",
+        "css": "column-gap: calc(var(--spacing)*12);"
+      },
+      {
+        "selector": ".gap-y-24",
+        "css": "row-gap: calc(var(--spacing)*24);"
+      },
+      {
+        "selector": ".px-4",
+        "css": "padding-inline: calc(var(--spacing)*4);"
+      },
+      {
+        "selector": ".py-10",
+        "css": "padding-block: calc(var(--spacing)*10);"
+      },
+      {
+        "selector": ".md\\:gap-x-\\[240px\\]",
+        "css": "column-gap: 240px;",
+        "media": "(min-width: 48rem)"
+      },
+      {
+        "selector": ".md\\:gap-y-32",
+        "css": "row-gap: calc(var(--spacing)*32);",
+        "media": "(min-width: 48rem)"
+      },
+      {
+        "selector": ".md\\:px-20",
+        "css": "padding-inline: calc(var(--spacing)*20);",
+        "media": "(min-width: 48rem)"
+      }
+    ]
+  },
+  {
+    "id": "cap_mr1ytoqx_rfuzdv",
+    "selector": "div.relative",
+    "label": "Peacock vintage find 1970s rattan peacoc…",
+    "tag": "div",
+    "url": "https://af-atx.figma.site/",
+    "title": "Atomic Finds ATX - Galaxy Product Card Demo",
+    "timestamp": "2026-07-01T11:01:31.401Z",
+    "innerText": "Peacock\n\nvintage find\n\n1970s rattan peacock chair, restored cane back. A dramatic seating option for sunrooms.\n\n$1450",
+    "outerHTML": "<div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-peacock-chair-02-1.5e14b9cf.png\" alt=\"Peacock\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Peacock</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">1970s rattan peacock chair, restored cane back. A dramatic seating option for sunrooms.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$1450<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div>",
+    "rect": {
+      "x": 1163,
+      "y": 465,
+      "width": 371,
+      "height": 536
+    },
+    "computedStyles": {
+      "display": "flex",
+      "position": "relative",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "width": "360px",
+      "height": "520px",
+      "border": "1.25px solid rgba(243, 202, 99, 0.4)",
+      "border-radius": "24px",
+      "box-sizing": "border-box",
+      "box-shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.8) 0px 0px 40px 0px, rgba(243, 202, 99, 0.15) 0px 0px 30px 0px inset",
+      "background": "rgb(26, 26, 26) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "oklch(0.145 0 0)",
+      "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-size": "16px",
+      "line-height": "24px",
+      "text-decoration": "none",
+      "flex-direction": "column",
+      "overflow": "hidden",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "cursor": "pointer"
+    },
+    "cssRules": [
+      {
+        "selector": "*, ::before, ::after, ::backdrop",
+        "css": "--tw-translate-x: 0; --tw-translate-y: 0; --tw-translate-z: 0; --tw-rotate-x: initial; --tw-rotate-y: initial; --tw-rotate-z: initial; --tw-skew-x: initial; --tw-skew-y: initial; --tw-space-y-reverse: 0; --tw-space-x-reverse: 0; --tw-border-style: solid; --tw-gradient-position: initial; --tw-gradient-from: #0000; --tw-gradient-via: #0000; --tw-gradient-to: #0000; --tw-gradient-stops: initial; --tw-gradient-via-stops: initial; --tw-gradient-from-position: 0%; --tw-gradient-via-position: 50%; --tw-gradient-to-position: 100%; --tw-leading: initial; --tw-font-weight: initial; --tw-tracking: initial; --tw-ordinal: initial; --tw-slashed-zero: initial; --tw-numeric-figure: initial; --tw-numeric-spacing: initial; --tw-numeric-fraction: initial; --tw-shadow: 0 0 #0000; --tw-shadow-color: initial; --tw-shadow-alpha: 100%; --tw-inset-shadow: 0 0 #0000; --tw-inset-shadow-color: initial; --tw-inset-shadow-alpha: 100%; --tw-ring-color: initial; --tw-ring-shadow: 0 0 #0000; --tw-inset-ring-color: initial; --tw-inset-ring-shadow: 0 0 #0000; --tw-ring-inset: initial; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-offset-shadow: 0 0 #0000; --tw-outline-style: solid; --tw-blur: initial; --tw-brightness: initial; --tw-contrast: initial; --tw-grayscale: initial; --tw-hue-rotate: initial; --tw-invert: initial; --tw-opacity: initial; --tw-saturate: initial; --tw-sepia: initial; --tw-drop-shadow: initial; --tw-drop-shadow-color: initial; --tw-drop-shadow-alpha: 100%; --tw-drop-shadow-size: initial; --tw-backdrop-blur: initial; --tw-backdrop-brightness: initial; --tw-backdrop-contrast: initial; --tw-backdrop-grayscale: initial; --tw-backdrop-hue-rotate: initial; --tw-backdrop-invert: initial; --tw-backdrop-opacity: initial; --tw-backdrop-saturate: initial; --tw-backdrop-sepia: initial; --tw-duration: initial; --tw-ease: initial; --tw-content: \"\"; --tw-animation-delay: 0s; --tw-animation-direction: normal; --tw-animation-duration: initial; --tw-animation-fill-mode: none; --tw-animation-iteration-count: 1; --tw-enter-blur: 0; --tw-enter-opacity: 1; --tw-enter-rotate: 0; --tw-enter-scale: 1; --tw-enter-translate-x: 0; --tw-enter-translate-y: 0; --tw-exit-blur: 0; --tw-exit-opacity: 1; --tw-exit-rotate: 0; --tw-exit-scale: 1; --tw-exit-translate-x: 0; --tw-exit-translate-y: 0;",
+        "media": "(((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b))))"
+      },
+      {
+        "selector": "*, ::after, ::before, ::backdrop",
+        "css": "box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px;"
+      },
+      {
+        "selector": "*",
+        "css": "border-color: var(--border); outline-color: var(--ring);"
+      },
+      {
+        "selector": "*",
+        "css": "outline-color: color-mix(in oklab,var(--ring)50%,transparent);",
+        "media": "(color:color-mix(in lab,red,red))"
+      },
+      {
+        "selector": ".relative",
+        "css": "position: relative;"
+      },
+      {
+        "selector": ".flex",
+        "css": "display: flex;"
+      },
+      {
+        "selector": ".h-full",
+        "css": "height: 100%;"
+      },
+      {
+        "selector": ".w-full",
+        "css": "width: 100%;"
+      },
+      {
+        "selector": ".flex-col",
+        "css": "flex-direction: column;"
+      },
+      {
+        "selector": ".overflow-hidden",
+        "css": "overflow: hidden;"
+      },
+      {
+        "selector": ".rounded-\\[24px\\]",
+        "css": "border-radius: 24px;"
+      },
+      {
+        "selector": ".border-\\[2px\\]",
+        "css": "border-style: var(--tw-border-style); border-width: 2px;"
+      },
+      {
+        "selector": ".border-\\[\\#f3ca63\\]\\/40",
+        "css": "border-color: rgba(243, 202, 99, 0.4);"
+      },
+      {
+        "selector": ".bg-\\[\\#1a1a1a\\]",
+        "css": "background-color: rgb(26, 26, 26);"
+      },
+      {
+        "selector": ".shadow-\\[0_0_40px_rgba\\(0\\,0\\,0\\,0\\.8\\)\\,inset_0_0_30px_rgba\\(243\\,202\\,99\\,0\\.15\\)\\]",
+        "css": "--tw-shadow: 0 0 40px var(--tw-shadow-color,#000c),inset 0 0 30px var(--tw-shadow-color,#f3ca6326); box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);"
+      }
+    ]
+  },
+  {
+    "id": "cap_mr1yts55_8pzmhv",
+    "selector": "div.relative",
+    "label": "Bamboo Lamp glow keeper Woven rattan pen…",
+    "tag": "div",
+    "url": "https://af-atx.figma.site/",
+    "title": "Atomic Finds ATX - Galaxy Product Card Demo",
+    "timestamp": "2026-07-01T11:01:35.802Z",
+    "innerText": "Bamboo Lamp\n\nglow keeper\n\nWoven rattan pendant shade, rewired and ready to hang. Emits a warm, patterned glow.\n\n$220",
+    "outerHTML": "<div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-lamp-04-1.9e0f7e5d.png\" alt=\"Bamboo Lamp\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Bamboo Lamp</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">glow keeper</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Woven rattan pendant shade, rewired and ready to hang. Emits a warm, patterned glow.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$220<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div>",
+    "rect": {
+      "x": 563,
+      "y": 465,
+      "width": 371,
+      "height": 536
+    },
+    "computedStyles": {
+      "display": "flex",
+      "position": "relative",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "width": "360px",
+      "height": "520px",
+      "border": "1.25px solid rgba(243, 202, 99, 0.4)",
+      "border-radius": "24px",
+      "box-sizing": "border-box",
+      "box-shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.8) 0px 0px 40px 0px, rgba(243, 202, 99, 0.15) 0px 0px 30px 0px inset",
+      "background": "rgb(26, 26, 26) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "oklch(0.145 0 0)",
+      "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-size": "16px",
+      "line-height": "24px",
+      "text-decoration": "none",
+      "flex-direction": "column",
+      "overflow": "hidden",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "cursor": "pointer"
+    },
+    "cssRules": [
+      {
+        "selector": "*, ::before, ::after, ::backdrop",
+        "css": "--tw-translate-x: 0; --tw-translate-y: 0; --tw-translate-z: 0; --tw-rotate-x: initial; --tw-rotate-y: initial; --tw-rotate-z: initial; --tw-skew-x: initial; --tw-skew-y: initial; --tw-space-y-reverse: 0; --tw-space-x-reverse: 0; --tw-border-style: solid; --tw-gradient-position: initial; --tw-gradient-from: #0000; --tw-gradient-via: #0000; --tw-gradient-to: #0000; --tw-gradient-stops: initial; --tw-gradient-via-stops: initial; --tw-gradient-from-position: 0%; --tw-gradient-via-position: 50%; --tw-gradient-to-position: 100%; --tw-leading: initial; --tw-font-weight: initial; --tw-tracking: initial; --tw-ordinal: initial; --tw-slashed-zero: initial; --tw-numeric-figure: initial; --tw-numeric-spacing: initial; --tw-numeric-fraction: initial; --tw-shadow: 0 0 #0000; --tw-shadow-color: initial; --tw-shadow-alpha: 100%; --tw-inset-shadow: 0 0 #0000; --tw-inset-shadow-color: initial; --tw-inset-shadow-alpha: 100%; --tw-ring-color: initial; --tw-ring-shadow: 0 0 #0000; --tw-inset-ring-color: initial; --tw-inset-ring-shadow: 0 0 #0000; --tw-ring-inset: initial; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-offset-shadow: 0 0 #0000; --tw-outline-style: solid; --tw-blur: initial; --tw-brightness: initial; --tw-contrast: initial; --tw-grayscale: initial; --tw-hue-rotate: initial; --tw-invert: initial; --tw-opacity: initial; --tw-saturate: initial; --tw-sepia: initial; --tw-drop-shadow: initial; --tw-drop-shadow-color: initial; --tw-drop-shadow-alpha: 100%; --tw-drop-shadow-size: initial; --tw-backdrop-blur: initial; --tw-backdrop-brightness: initial; --tw-backdrop-contrast: initial; --tw-backdrop-grayscale: initial; --tw-backdrop-hue-rotate: initial; --tw-backdrop-invert: initial; --tw-backdrop-opacity: initial; --tw-backdrop-saturate: initial; --tw-backdrop-sepia: initial; --tw-duration: initial; --tw-ease: initial; --tw-content: \"\"; --tw-animation-delay: 0s; --tw-animation-direction: normal; --tw-animation-duration: initial; --tw-animation-fill-mode: none; --tw-animation-iteration-count: 1; --tw-enter-blur: 0; --tw-enter-opacity: 1; --tw-enter-rotate: 0; --tw-enter-scale: 1; --tw-enter-translate-x: 0; --tw-enter-translate-y: 0; --tw-exit-blur: 0; --tw-exit-opacity: 1; --tw-exit-rotate: 0; --tw-exit-scale: 1; --tw-exit-translate-x: 0; --tw-exit-translate-y: 0;",
+        "media": "(((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b))))"
+      },
+      {
+        "selector": "*, ::after, ::before, ::backdrop",
+        "css": "box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px;"
+      },
+      {
+        "selector": "*",
+        "css": "border-color: var(--border); outline-color: var(--ring);"
+      },
+      {
+        "selector": "*",
+        "css": "outline-color: color-mix(in oklab,var(--ring)50%,transparent);",
+        "media": "(color:color-mix(in lab,red,red))"
+      },
+      {
+        "selector": ".relative",
+        "css": "position: relative;"
+      },
+      {
+        "selector": ".flex",
+        "css": "display: flex;"
+      },
+      {
+        "selector": ".h-full",
+        "css": "height: 100%;"
+      },
+      {
+        "selector": ".w-full",
+        "css": "width: 100%;"
+      },
+      {
+        "selector": ".flex-col",
+        "css": "flex-direction: column;"
+      },
+      {
+        "selector": ".overflow-hidden",
+        "css": "overflow: hidden;"
+      },
+      {
+        "selector": ".rounded-\\[24px\\]",
+        "css": "border-radius: 24px;"
+      },
+      {
+        "selector": ".border-\\[2px\\]",
+        "css": "border-style: var(--tw-border-style); border-width: 2px;"
+      },
+      {
+        "selector": ".border-\\[\\#f3ca63\\]\\/40",
+        "css": "border-color: rgba(243, 202, 99, 0.4);"
+      },
+      {
+        "selector": ".bg-\\[\\#1a1a1a\\]",
+        "css": "background-color: rgb(26, 26, 26);"
+      },
+      {
+        "selector": ".shadow-\\[0_0_40px_rgba\\(0\\,0\\,0\\,0\\.8\\)\\,inset_0_0_30px_rgba\\(243\\,202\\,99\\,0\\.15\\)\\]",
+        "css": "--tw-shadow: 0 0 40px var(--tw-shadow-color,#000c),inset 0 0 30px var(--tw-shadow-color,#f3ca6326); box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);"
+      }
+    ]
+  },
+  {
+    "id": "cap_mr1ytyy9_yw13a7",
+    "selector": "div.relative",
+    "label": "Wiccer Book Shelf vintage find Beautiful…",
+    "tag": "div",
+    "url": "https://af-atx.figma.site/",
+    "title": "Atomic Finds ATX - Galaxy Product Card Demo",
+    "timestamp": "2026-07-01T11:01:44.625Z",
+    "innerText": "Wiccer Book Shelf\n\nvintage find\n\nBeautiful natural patina from decades of use. Perfect for adding vertical interest. Delicate joinery, impeccable craftsmanship.\n\n$145",
+    "outerHTML": "<div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-wiccer-book-shelf-01.de60fd7b.png\" alt=\"Wiccer Book Shelf\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Wiccer Book Shelf</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Beautiful natural patina from decades of use. Perfect for adding vertical interest. Delicate joinery, impeccable craftsmanship.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$145<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div>",
+    "rect": {
+      "x": 1163,
+      "y": 0,
+      "width": 371,
+      "height": 536
+    },
+    "computedStyles": {
+      "display": "flex",
+      "position": "relative",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "width": "360px",
+      "height": "520px",
+      "border": "1.25px solid rgba(243, 202, 99, 0.4)",
+      "border-radius": "24px",
+      "box-sizing": "border-box",
+      "box-shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.8) 0px 0px 40px 0px, rgba(243, 202, 99, 0.15) 0px 0px 30px 0px inset",
+      "background": "rgb(26, 26, 26) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "oklch(0.145 0 0)",
+      "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-size": "16px",
+      "line-height": "24px",
+      "text-decoration": "none",
+      "flex-direction": "column",
+      "overflow": "hidden",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "cursor": "pointer"
+    },
+    "cssRules": [
+      {
+        "selector": "*, ::before, ::after, ::backdrop",
+        "css": "--tw-translate-x: 0; --tw-translate-y: 0; --tw-translate-z: 0; --tw-rotate-x: initial; --tw-rotate-y: initial; --tw-rotate-z: initial; --tw-skew-x: initial; --tw-skew-y: initial; --tw-space-y-reverse: 0; --tw-space-x-reverse: 0; --tw-border-style: solid; --tw-gradient-position: initial; --tw-gradient-from: #0000; --tw-gradient-via: #0000; --tw-gradient-to: #0000; --tw-gradient-stops: initial; --tw-gradient-via-stops: initial; --tw-gradient-from-position: 0%; --tw-gradient-via-position: 50%; --tw-gradient-to-position: 100%; --tw-leading: initial; --tw-font-weight: initial; --tw-tracking: initial; --tw-ordinal: initial; --tw-slashed-zero: initial; --tw-numeric-figure: initial; --tw-numeric-spacing: initial; --tw-numeric-fraction: initial; --tw-shadow: 0 0 #0000; --tw-shadow-color: initial; --tw-shadow-alpha: 100%; --tw-inset-shadow: 0 0 #0000; --tw-inset-shadow-color: initial; --tw-inset-shadow-alpha: 100%; --tw-ring-color: initial; --tw-ring-shadow: 0 0 #0000; --tw-inset-ring-color: initial; --tw-inset-ring-shadow: 0 0 #0000; --tw-ring-inset: initial; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-offset-shadow: 0 0 #0000; --tw-outline-style: solid; --tw-blur: initial; --tw-brightness: initial; --tw-contrast: initial; --tw-grayscale: initial; --tw-hue-rotate: initial; --tw-invert: initial; --tw-opacity: initial; --tw-saturate: initial; --tw-sepia: initial; --tw-drop-shadow: initial; --tw-drop-shadow-color: initial; --tw-drop-shadow-alpha: 100%; --tw-drop-shadow-size: initial; --tw-backdrop-blur: initial; --tw-backdrop-brightness: initial; --tw-backdrop-contrast: initial; --tw-backdrop-grayscale: initial; --tw-backdrop-hue-rotate: initial; --tw-backdrop-invert: initial; --tw-backdrop-opacity: initial; --tw-backdrop-saturate: initial; --tw-backdrop-sepia: initial; --tw-duration: initial; --tw-ease: initial; --tw-content: \"\"; --tw-animation-delay: 0s; --tw-animation-direction: normal; --tw-animation-duration: initial; --tw-animation-fill-mode: none; --tw-animation-iteration-count: 1; --tw-enter-blur: 0; --tw-enter-opacity: 1; --tw-enter-rotate: 0; --tw-enter-scale: 1; --tw-enter-translate-x: 0; --tw-enter-translate-y: 0; --tw-exit-blur: 0; --tw-exit-opacity: 1; --tw-exit-rotate: 0; --tw-exit-scale: 1; --tw-exit-translate-x: 0; --tw-exit-translate-y: 0;",
+        "media": "(((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b))))"
+      },
+      {
+        "selector": "*, ::after, ::before, ::backdrop",
+        "css": "box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px;"
+      },
+      {
+        "selector": "*",
+        "css": "border-color: var(--border); outline-color: var(--ring);"
+      },
+      {
+        "selector": "*",
+        "css": "outline-color: color-mix(in oklab,var(--ring)50%,transparent);",
+        "media": "(color:color-mix(in lab,red,red))"
+      },
+      {
+        "selector": ".relative",
+        "css": "position: relative;"
+      },
+      {
+        "selector": ".flex",
+        "css": "display: flex;"
+      },
+      {
+        "selector": ".h-full",
+        "css": "height: 100%;"
+      },
+      {
+        "selector": ".w-full",
+        "css": "width: 100%;"
+      },
+      {
+        "selector": ".flex-col",
+        "css": "flex-direction: column;"
+      },
+      {
+        "selector": ".overflow-hidden",
+        "css": "overflow: hidden;"
+      },
+      {
+        "selector": ".rounded-\\[24px\\]",
+        "css": "border-radius: 24px;"
+      },
+      {
+        "selector": ".border-\\[2px\\]",
+        "css": "border-style: var(--tw-border-style); border-width: 2px;"
+      },
+      {
+        "selector": ".border-\\[\\#f3ca63\\]\\/40",
+        "css": "border-color: rgba(243, 202, 99, 0.4);"
+      },
+      {
+        "selector": ".bg-\\[\\#1a1a1a\\]",
+        "css": "background-color: rgb(26, 26, 26);"
+      },
+      {
+        "selector": ".shadow-\\[0_0_40px_rgba\\(0\\,0\\,0\\,0\\.8\\)\\,inset_0_0_30px_rgba\\(243\\,202\\,99\\,0\\.15\\)\\]",
+        "css": "--tw-shadow: 0 0 40px var(--tw-shadow-color,#000c),inset 0 0 30px var(--tw-shadow-color,#f3ca6326); box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);"
+      }
+    ]
+  },
+  {
+    "id": "cap_mr1yu1sa_jb1bm9",
+    "selector": "div.relative",
+    "label": "Rattan Lounge Chair vintage find Newly r…",
+    "tag": "div",
+    "url": "https://af-atx.figma.site/",
+    "title": "Atomic Finds ATX - Galaxy Product Card Demo",
+    "timestamp": "2026-07-01T11:01:48.298Z",
+    "innerText": "Rattan Lounge Chair\n\nvintage find\n\nNewly restored upholstery in neutral linen. A statement piece that catches light beautifully. Fully functional and ready for your living room.\n\n$145",
+    "outerHTML": "<div class=\"relative w-full h-full rounded-[24px] bg-[#1a1a1a] overflow-hidden flex flex-col border-[2px] border-[#f3ca63]/40 shadow-[0_0_40px_rgba(0,0,0,0.8),inset_0_0_30px_rgba(243,202,99,0.15)]\" style=\"transform: translateZ(0px);\"><div class=\"h-[220px] sm:h-[260px] w-[94%] mx-auto mt-3 rounded-[20px] flex items-center justify-center overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] border-[2px] border-[#f3ca63]/40\" style=\"background-color: rgb(45, 45, 45);\"><div class=\"relative w-[90%] h-[90%] flex items-center justify-center pointer-events-none z-10\"><img src=\"/_components/v2/ab970eff8ce2ca77a8a3ea119e8bad5bc4b2ec0c/product-rattan-chair-04-1.0d719a75.png\" alt=\"Rattan Lounge Chair\" class=\"w-full h-full object-contain\"></div></div><div class=\"flex-1 px-5 sm:px-6 py-4 sm:py-5 flex flex-col justify-between text-white bg-[#1a1a1a] relative z-0\"><div><h3 class=\"font-['Abril_Fatface'] text-[34px] sm:text-[42px] tracking-wide text-[#f3ca63] leading-none mb-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]\">Rattan Lounge Chair</h3><p class=\"font-['Dancing_Script'] text-2xl sm:text-3xl text-[#d4994f] mb-2 sm:mb-3\">vintage find</p><p class=\"text-[12px] sm:text-[13px] text-gray-300 leading-relaxed font-sans opacity-90 line-clamp-2 sm:line-clamp-3\">Newly restored upholstery in neutral linen. A statement piece that catches light beautifully. Fully functional and ready for your living room.</p></div><div class=\"mt-3 sm:mt-4\"><div class=\"inline-flex items-center justify-center gap-2 bg-[#f3ca63] text-black px-4 py-0.5 rounded-full font-['Abril_Fatface'] text-lg sm:text-xl shadow-[0_0_15px_rgba(243,202,99,0.3)]\">$145<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-orbit w-4 h-4 opacity-80\"><circle cx=\"12\" cy=\"12\" r=\"3\"></circle><circle cx=\"19\" cy=\"5\" r=\"2\"></circle><circle cx=\"5\" cy=\"19\" r=\"2\"></circle><path d=\"M10.4 21.9a10 10 0 0 0 9.941-15.416\"></path><path d=\"M13.5 2.1a10 10 0 0 0-9.841 15.416\"></path></svg></div></div></div></div>",
+    "rect": {
+      "x": 563,
+      "y": 0,
+      "width": 371,
+      "height": 536
+    },
+    "computedStyles": {
+      "display": "flex",
+      "position": "relative",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "left": "0px",
+      "width": "360px",
+      "height": "520px",
+      "border": "1.25px solid rgba(243, 202, 99, 0.4)",
+      "border-radius": "24px",
+      "box-sizing": "border-box",
+      "box-shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.8) 0px 0px 40px 0px, rgba(243, 202, 99, 0.15) 0px 0px 30px 0px inset",
+      "background": "rgb(26, 26, 26) none repeat scroll 0% 0% / auto padding-box border-box",
+      "color": "oklch(0.145 0 0)",
+      "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-size": "16px",
+      "line-height": "24px",
+      "text-decoration": "none",
+      "flex-direction": "column",
+      "overflow": "hidden",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "transition": "all",
+      "cursor": "pointer"
+    },
+    "cssRules": [
+      {
+        "selector": "*, ::before, ::after, ::backdrop",
+        "css": "--tw-translate-x: 0; --tw-translate-y: 0; --tw-translate-z: 0; --tw-rotate-x: initial; --tw-rotate-y: initial; --tw-rotate-z: initial; --tw-skew-x: initial; --tw-skew-y: initial; --tw-space-y-reverse: 0; --tw-space-x-reverse: 0; --tw-border-style: solid; --tw-gradient-position: initial; --tw-gradient-from: #0000; --tw-gradient-via: #0000; --tw-gradient-to: #0000; --tw-gradient-stops: initial; --tw-gradient-via-stops: initial; --tw-gradient-from-position: 0%; --tw-gradient-via-position: 50%; --tw-gradient-to-position: 100%; --tw-leading: initial; --tw-font-weight: initial; --tw-tracking: initial; --tw-ordinal: initial; --tw-slashed-zero: initial; --tw-numeric-figure: initial; --tw-numeric-spacing: initial; --tw-numeric-fraction: initial; --tw-shadow: 0 0 #0000; --tw-shadow-color: initial; --tw-shadow-alpha: 100%; --tw-inset-shadow: 0 0 #0000; --tw-inset-shadow-color: initial; --tw-inset-shadow-alpha: 100%; --tw-ring-color: initial; --tw-ring-shadow: 0 0 #0000; --tw-inset-ring-color: initial; --tw-inset-ring-shadow: 0 0 #0000; --tw-ring-inset: initial; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-offset-shadow: 0 0 #0000; --tw-outline-style: solid; --tw-blur: initial; --tw-brightness: initial; --tw-contrast: initial; --tw-grayscale: initial; --tw-hue-rotate: initial; --tw-invert: initial; --tw-opacity: initial; --tw-saturate: initial; --tw-sepia: initial; --tw-drop-shadow: initial; --tw-drop-shadow-color: initial; --tw-drop-shadow-alpha: 100%; --tw-drop-shadow-size: initial; --tw-backdrop-blur: initial; --tw-backdrop-brightness: initial; --tw-backdrop-contrast: initial; --tw-backdrop-grayscale: initial; --tw-backdrop-hue-rotate: initial; --tw-backdrop-invert: initial; --tw-backdrop-opacity: initial; --tw-backdrop-saturate: initial; --tw-backdrop-sepia: initial; --tw-duration: initial; --tw-ease: initial; --tw-content: \"\"; --tw-animation-delay: 0s; --tw-animation-direction: normal; --tw-animation-duration: initial; --tw-animation-fill-mode: none; --tw-animation-iteration-count: 1; --tw-enter-blur: 0; --tw-enter-opacity: 1; --tw-enter-rotate: 0; --tw-enter-scale: 1; --tw-enter-translate-x: 0; --tw-enter-translate-y: 0; --tw-exit-blur: 0; --tw-exit-opacity: 1; --tw-exit-rotate: 0; --tw-exit-scale: 1; --tw-exit-translate-x: 0; --tw-exit-translate-y: 0;",
+        "media": "(((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b))))"
+      },
+      {
+        "selector": "*, ::after, ::before, ::backdrop",
+        "css": "box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px;"
+      },
+      {
+        "selector": "*",
+        "css": "border-color: var(--border); outline-color: var(--ring);"
+      },
+      {
+        "selector": "*",
+        "css": "outline-color: color-mix(in oklab,var(--ring)50%,transparent);",
+        "media": "(color:color-mix(in lab,red,red))"
+      },
+      {
+        "selector": ".relative",
+        "css": "position: relative;"
+      },
+      {
+        "selector": ".flex",
+        "css": "display: flex;"
+      },
+      {
+        "selector": ".h-full",
+        "css": "height: 100%;"
+      },
+      {
+        "selector": ".w-full",
+        "css": "width: 100%;"
+      },
+      {
+        "selector": ".flex-col",
+        "css": "flex-direction: column;"
+      },
+      {
+        "selector": ".overflow-hidden",
+        "css": "overflow: hidden;"
+      },
+      {
+        "selector": ".rounded-\\[24px\\]",
+        "css": "border-radius: 24px;"
+      },
+      {
+        "selector": ".border-\\[2px\\]",
+        "css": "border-style: var(--tw-border-style); border-width: 2px;"
+      },
+      {
+        "selector": ".border-\\[\\#f3ca63\\]\\/40",
+        "css": "border-color: rgba(243, 202, 99, 0.4);"
+      },
+      {
+        "selector": ".bg-\\[\\#1a1a1a\\]",
+        "css": "background-color: rgb(26, 26, 26);"
+      },
+      {
+        "selector": ".shadow-\\[0_0_40px_rgba\\(0\\,0\\,0\\,0\\.8\\)\\,inset_0_0_30px_rgba\\(243\\,202\\,99\\,0\\.15\\)\\]",
+        "css": "--tw-shadow: 0 0 40px var(--tw-shadow-color,#000c),inset 0 0 30px var(--tw-shadow-color,#f3ca6326); box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);"
+      }
+    ]
+  }
+]

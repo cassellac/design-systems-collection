@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Atomic Finds ATX — Space, radius, elevation, motion
+   ========================================================================== */
+
+:root {
+  /* --- Spacing (8px multiplier grid) ----------------------------------- */
+  --af-space-1:  0.5rem;   /*  8px */
+  --af-space-2:  1rem;     /* 16px */
+  --af-space-3:  1.5rem;   /* 24px */
+  --af-space-4:  2rem;     /* 32px */
+  --af-space-5:  3rem;     /* 48px */
+  --af-space-6:  4rem;     /* 64px */
+  --af-space-7:  5rem;     /* 80px */
+  --af-space-8:  7.5rem;    /* 120px */
+  --af-space-9:  10rem;     /* 160px — section gutters; cream needs to breathe */
+
+  /* --- Radius -----------------------------------------------------------
+     Cards are generously rounded but never full-pill. Pills are reserved
+     for buttons, tags and badges, so the two never read as the same object. */
+  --af-radius-sm:   8px;
+  --af-radius-card: 18px;
+  --af-radius-lg:   24px;
+  --af-radius-pill: 999px;
+
+  /* --- Borders ----------------------------------------------------------
+     A heavy ink outline is the brand's structural signature (ticket stub /
+     postcard), which is why there is no soft-border token. */
+  --af-border-width: 2px;
+  --af-border-heavy: 3px;
+
+  /* --- Elevation ------------------------------------------------------- */
+  --af-shadow-stamp:       4px 4px 0 var(--af-ink);
+  --af-shadow-stamp-sm:    2px 2px 0 var(--af-ink);
+  --af-shadow-stamp-lift:  6px 6px 0 var(--af-ink);
+  --af-shadow-pink:        0 10px 25px -4px rgba(227, 154, 168, 0.48), 0 4px 10px -2px rgba(43, 46, 20, 0.06);
+  --af-shadow-pink-lift:   0 16px 34px -4px rgba(227, 154, 168, 0.62), 0 6px 14px -2px rgba(43, 46, 20, 0.10);
+  --af-shadow-green:       0 10px 25px -4px rgba(107, 122, 50, 0.42), 0 4px 10px -2px rgba(43, 46, 20, 0.06);
+  --af-shadow-green-lift:  0 16px 34px -4px rgba(107, 122, 50, 0.55), 0 6px 14px -2px rgba(43, 46, 20, 0.10);
+  --af-shadow-yellow:      0 10px 25px -4px rgba(224, 165, 38, 0.48), 0 4px 10px -2px rgba(43, 46, 20, 0.06);
+  --af-shadow-yellow-lift: 0 16px 34px -4px rgba(224, 165, 38, 0.62), 0 6px 14px -2px rgba(43, 46, 20, 0.10);
+  --af-shadow-orange:      0 10px 25px -4px rgba(200, 80, 30, 0.40), 0 4px 10px -2px rgba(43, 46, 20, 0.06);
+  --af-shadow-orange-lift: 0 16px 34px -4px rgba(200, 80, 30, 0.52), 0 6px 14px -2px rgba(43, 46, 20, 0.10);
+
+  /* --- Motion ----------------------------------------------------------
+     Subtle and warm, never flashy. Motion supports the furniture. */
+  --af-ease:          cubic-bezier(0.2, 0.7, 0.3, 1);
+  --af-duration-fast: 120ms;
+  --af-duration:      220ms;
+  --af-duration-slow: 420ms;
+
+  /* --- Layout ---------------------------------------------------------- */
+  --af-measure:   66ch;   /* max body line length */
+  --af-container: 1280px;  /* was 1180 — too tight for desktop at 1425 */
+
+  /* --- Pattern ---------------------------------------------------------
+     Ghost pattern strength: the one dial deciding whether a section reads
+     calm or busy. Applies to every .af-pattern--ghost background. */
+  --af-pattern-ghost: 0.07;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --af-duration-fast: 1ms;
+    --af-duration:      1ms;
+    --af-duration-slow: 1ms;
+  }
+
+}
