@@ -25,7 +25,7 @@ A curated repository of 3 comprehensive design systems featuring UI component sp
   - Live Supabase product tables & filterable product grids
   - Production homepage kit (`/ui_kits/website/index.html`)
 
-### 3. [Healthcare Training Center (Caladrius) Design System](file:///Users/cuus/Downloads/Design%20Systems/Healthcare%20Training%20Center%20-%20Design%20System/index.html)
+### 3. [Healthcare Training Center Design System](file:///Users/cuus/Downloads/Design%20Systems/Healthcare%20Training%20Center%20-%20Design%20System/index.html)
 - **Domain**: Enterprise Healthcare, Medical Compliance & Learning Platform
 - **Theme**: Deep Navy (`#1E3A6E`), Teal (`#2B8FA9`), Amber (`#C9973A`), + 5 Room Identity Colors (CS, HIPAA, Compliance, Records, Finance)
 - **Typography**: Montserrat, Inter, Playfair Display
@@ -69,7 +69,7 @@ Design Systems/
 │   ├── components/                               # Galaxy card, buttons, badges
 │   ├── guidelines/                               # Brand, starfield, curves
 │   └── ui_kits/                                  # Full homepage & product grid
-└── Healthcare Training Center - Design System/   # Caladrius Training System
+└── Healthcare Training Center - Design System/   # Healthcare Training Center Design System
     ├── index.html                                # System index viewer
     ├── _ds_manifest.json                         # Component & token manifest
     ├── assets/brand/                             # Logos, illustrations, icons

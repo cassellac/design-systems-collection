@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Caladrius — Design System</title>
+<title>Healthcare Training Center — Design System</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -68,9 +68,10 @@ body { font-family: var(--bf); background: var(--surface); color: var(--fg1); di
 <body>
 
 <header class="ds-header">
-  <div class="logo-mark"><img src="assets/brand/logos/logo-icon-compound.png" alt="Caladrius"></div>
-  <span class="logo-name">Caladrius</span>
-  <span class="logo-tag">Healthcare Training · Design System</span>
+  <div class="logo-mark"><img src="assets/brand/logos/logo-icon-compound.png" alt="Healthcare Training Center"></div>
+  <span class="logo-name">Healthcare Training Center</span>
+  <span class="logo-tag">Design System</span>
+  <a href="todo-list.html" style="margin-left: 20px; font-size: 12px; font-weight: 600; color: #fff; background: var(--teal); padding: 5px 12px; border-radius: 20px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">📋 To-Do List &amp; Roadmap</a>
   <span class="badge-count" id="totalCount"></span>
 </header>
 
@@ -94,7 +95,7 @@ const GROUP_META = {
 };
 
 const CARDS = [
-  { group:'Brand', name:'The Caladrius Mark',        subtitle:'8 official logo variations + usage',      path:'preview/logo.html',        vw:920, vh:460 },
+  { group:'Brand', name:'Visual Identity Mark',      subtitle:'5 official icon variations + usage',      path:'preview/logo.html',        vw:920, vh:460 },
   { group:'Brand', name:'Lockup Reversal',           subtitle:'On cream + on navy',                      path:'preview/wordmark.html',    vw:700, vh:150 },
   { group:'Brand', name:'Certificate Specimen',      subtitle:'Playfair display name on completion',     path:'preview/certificate.html', vw:700, vh:180 },
   { group:'Brand', name:'Illustrated Motifs',        subtitle:'Hand-drawn editorial symbols',            path:'preview/motifs.html',      vw:920, vh:300 },
@@ -129,6 +130,7 @@ const CARDS = [
 
   { group:'Website', name:'Learner App — UI Kit',   subtitle:'Lobby → Room → Course, click-through', path:'ui_kits/learner-app/index.html', vw:1280, vh:760 },
   { group:'Website', name:'Marketing Site — UI Kit', subtitle:'Public landing page recreation',        path:'ui_kits/marketing/index.html',   vw:1280, vh:820 },
+  { group:'Website', name:'Strategic To-Do List & Roadmap', subtitle:'Meeting agenda, legal guardrails & roles', path:'todo-list.html', vw:960, vh:600 },
   { group:'Website', name:'Course Announcement Emails', subtitle:'New course, deadline, certificate & live class templates', path:'preview/email-templates.html', vw:700, vh:200, download:'templates/Course Announcement Emails (Standalone).html' },
 ];
 
@@ -168,8 +170,8 @@ groupOrder.forEach(g => {
     sec.innerHTML = `
       <div class="section-header"><h2>Readme</h2></div>
       <div class="readme-body">
-        <h3>Caladrius — Healthcare Training Design System</h3>
-        <p>A mythic snow-white bird that bears illness up to the sun — the mark of selfless care. This system covers brand marks, tokens, components, and the two production UI kits (Learner App + Marketing Site).</p>
+        <h3>Healthcare Training Center — Design System</h3>
+        <p>A comprehensive design system for healthcare training, medical compliance, and continuing education. This system covers brand marks, tokens, components, and the two production UI kits (Learner App + Marketing Site).</p>
         <h3>Structure</h3>
         <ul>
           <li><code>colors_and_type.css</code> / <code>styles.css</code> — root tokens, import this first</li>
